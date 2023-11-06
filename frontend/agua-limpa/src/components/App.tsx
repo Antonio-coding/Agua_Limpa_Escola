@@ -1,28 +1,23 @@
-import 'core-js/stable'
-import React from 'react'
-import 'regenerator-runtime/runtime'
+import "core-js/stable";
+import React from "react";
+import "regenerator-runtime/runtime";
 
-import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from "react-router-dom";
+import Loader from "./Common/Loader";
+import { GlobalStyle } from "./Common/GlobalStyle";
 
-
-
-const Main = React.lazy(() => import('./main/index'))
-
-
-
+const Main = React.lazy(() => import("./main/index"));
 
 const App = () => {
   return (
     <React.Suspense fallback={<Loader />}>
       <Router>
-        <Switch>
-         <Route />
-        
-        </Switch>
+        <Route />
+        <Route />
       </Router>
       <GlobalStyle />
     </React.Suspense>
-  )
-}
+  );
+};
 
-export default App
+export default App;
