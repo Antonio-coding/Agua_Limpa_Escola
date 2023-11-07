@@ -1,12 +1,9 @@
 import "core-js/stable";
 import React from "react";
 import "regenerator-runtime/runtime";
-
 import { HashRouter as Router, Route } from "react-router-dom";
-import Loader from "./Common/Loader";
-import { GlobalStyle } from "./Common/GlobalStyle";
-
-const Main = React.lazy(() => import("./main/index"));
+import { GlobalStyle } from "./components/Common/GlobalStyle/index";
+import Loader from "./components/Common/Loader/index";
 
 const App = () => {
   return (
