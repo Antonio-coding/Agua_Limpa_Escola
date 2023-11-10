@@ -1,13 +1,11 @@
 import React from "react";
-import Logo from "./img/logo_agua.min.svg";
 import Image from "next/image";
+import Logo from "public/assents/logo_agua.min.svg";
 export const Navbar: React.FC = () => {
   return (
     <div className="md: flex  justify-between  bg-slate-100  p-6 md:p-8 light:bg-slate-800 shadow-lg">
       <div className="flex justify-start">
-
-        <Image src={Logo} alt="logo agua limpa" />
-
+        <Image src={Logo} alt="logo agua limpa" width={153} height={39} />
       </div>
       <div className="flex justify-end">
         <div>
@@ -34,4 +32,3 @@ export const Navbar: React.FC = () => {
     </div>
   );
 };
-
