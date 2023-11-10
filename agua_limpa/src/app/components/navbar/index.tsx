@@ -4,7 +4,9 @@ export const Navbar: React.FC = () => {
   return (
     <div className="md: flex  justify-between  bg-slate-100  p-6 md:p-8 light:bg-slate-800 shadow-lg">
       <div className="flex justify-start">
-        <Logo></Logo>
+
+        <image src="public/next.svg" alt="logo agua limpa" srcSet="" />
+
       </div>
       <div className="flex justify-end">
         <div>
