@@ -1,5 +1,6 @@
 import React from "react";
 import Mapa from "./img/mapaBrasil.min.svg"; // Certifique-se de usar o caminho correto para a imagem
+import Image from "next/image";
 
 export const Carrousel: React.FC = () => {
   return (
@@ -15,17 +16,13 @@ export const Carrousel: React.FC = () => {
               type="text"
               placeholder="Buscar por escolas, cidade ou estado"
             />
-            <input
-              type="text"
-              placeholder="Buscar por escolas, cidade ou estado"
-            />
             <button type="submit">Buscar</button>
           </form>
         </div>
       </div>
       <div>
         <div>
-          <Mapa />
+          <Image src={Mapa} alt="Mapa represenato o Brasil" />
         </div>
         <div>
           <h2>Teste</h2>
@@ -35,5 +32,3 @@ export const Carrousel: React.FC = () => {
     </div>
   );
 };
-
-export default Carrousel;
