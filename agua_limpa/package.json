@@ -9,17 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "Babel": "^0.0.1",
-    "css-select": "^3.1.0",
     "next": "14.0.1",
     "next-images": "^1.8.5",
-    "next-svgr": "^0.0.2",
-    "nth-check": "2.0.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

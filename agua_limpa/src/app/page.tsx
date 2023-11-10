@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "./components/navbar";
-import { Carrousel } from "./components/carroseul/index";
+import { Carrousel } from "./components/carousel/index";
 
 
 export default function Home() {
