@@ -22,9 +22,9 @@ const HomePageOnePage: React.FC = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
-        <Header className="flex flex-col items-center justify-center md:px-5 w-full" />
+        <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
         <div className="bg-gray-100 flex flex-col items-center justify-start p-[23px] sm:px-5 w-full">
-          <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between max-w-[1108px] mx-auto md:px-5 w-full">
+              <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between max-w-[1108px] mx-auto md:px-5 w-full">
             <div className="flex md:flex-1 flex-col gap-[26px] items-start justify-start md:mt-0 mt-[116px] w-1/2 md:w-full">
               <Text
                 className="leading-[19.00px] sm:text-2xl md:text-[26px] text-[28px] text-blue-800"

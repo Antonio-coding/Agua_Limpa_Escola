@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Img, Line, Radio, SelectBox, Text } from "components";
 import Footer from "components/Footer";
-import Header1 from "components/Header1";
+import Header from "components/Header";
 
 const depoimentosOptionsList = [
   { label: "Option1", value: "option1" },
@@ -14,7 +14,7 @@ const BuscarPageFourPage: React.FC = () => {
   return (
     <>
       <div className="bg-gray-100 flex flex-col font-inter items-center justify-start mx-auto w-full">
-        <Header1 className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
+        <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
         <div className="bg-white-A700 flex flex-col items-start justify-start max-w-[1082px] mt-[61px] mx-auto p-[23px] md:px-5 shadow-bs1 w-full">
           <div className="flex flex-row gap-4 items-end justify-start w-[17%] md:w-full">
             <Img

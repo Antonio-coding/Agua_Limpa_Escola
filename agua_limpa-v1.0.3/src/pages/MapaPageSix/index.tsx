@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Img, Input, Radio, SelectBox, Text } from "components";
 import Footer from "components/Footer";
-import Header1 from "components/Header1";
+import Header from "components/Header";
 
 const depoimentosOptionsList = [
   { label: "Option1", value: "option1" },
@@ -15,7 +15,7 @@ const MapaPageSixPage: React.FC = () => {
     <>
       <div className="bg-gray-100 flex flex-col font-inter items-start justify-start mx-auto w-full">
         <div className="flex flex-col items-center w-full">
-          <Header1 className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
+          <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
         </div>
         <div className="flex flex-col items-end mt-[151px] md:pl-10 sm:pl-5 pl-[66px] w-full">
           <div className="h-[849px] relative w-full">
