@@ -57,7 +57,6 @@ export const Carrousel: React.FC = () => {
             milhões de alunos sofrem com a falta de estrutura escolar.{" "}
           </p>
         </div>
-        
       </div>
     </div>
   );
