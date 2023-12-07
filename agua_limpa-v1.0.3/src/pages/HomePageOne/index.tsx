@@ -24,95 +24,100 @@ const HomePageOnePage: React.FC = () => {
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
         <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
         <div className="bg-gray-100 flex flex-col items-center justify-start p-[23px] sm:px-5 w-full">
-              <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between max-w-[1108px] mx-auto md:px-5 w-full">
-            <div className="flex md:flex-1 flex-col gap-[26px] items-start justify-start md:mt-0 mt-[116px] w-1/2 md:w-full">
-              <Text
-                className="leading-[19.00px] sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
-                size="txtInterSemiBold28"
-              >
-                <>
-                  Use dados sesemsoeoseomaomsdfas.
-                  <br />
-                  Transforme a educação através da água.{" "}
-                </>
-              </Text>
-              <Button
-                className="common-pointer cursor-pointer flex items-center justify-center min-w-[462px] sm:min-w-full rounded-[7px]"
-                onClick={() => navigate("/buscarpagefour")}
-                leftIcon={
-                  <Img
-                    className="h-6 mr-[11px]"
-                    src="images/img_rewind.svg"
-                    alt="rewind"
-                  />
-                }
-                color="gray_200"
-                size="sm"
-                variant="fill"
-              >
-                <div className="text-[15px] text-left">buscar escola</div>
-              </Button>
-            </div>
-            <div className="h-[431px] relative w-[43%] md:w-full">
-              <Img
-                className="h-[431px] m-auto object-cover w-full"
-                src="images/img_designsemnome.png"
-                alt="designsemnome"
-              />
-              <div className="absolute bg-white-A700 border border-blue-800 border-solid flex flex-col h-max inset-y-[0] items-center justify-end my-auto p-3 right-[6%] rounded-[10px] shadow-bs1 w-[78%]">
-                <div className="flex flex-col gap-3.5 items-start justify-start w-[98%] md:w-full">
-                  <div className="flex flex-row items-start justify-start w-[36%] md:w-full">
-                    <Img
-                      className="h-[19px] md:h-auto object-cover w-[19px]"
-                      src="images/img_designsemnome_19x19.png"
-                      alt="designsemnome_One"
-                    />
-                    <Text
-                      className="ml-[5px] text-base text-blue-800"
-                      size="txtInterSemiBold16"
-                    >
-                      Você sabia?
-                    </Text>
-                  </div>
-                  <Text
-                    className="leading-[16.00px] text-black-900 text-sm"
-                    size="txtInterMedium14"
-                  >
-                    <>
-                      Mais de 8.000 escolas no Brasil não têm acesso
-                      <br />a água potável
-                    </>
+          {/* CABELHAÇO */}
+          <div id="cabecalho">
+            <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between max-w-[1108px] mx-auto md:px-5 w-full">
+              <div className="flex md:flex-1 flex-col gap-[26px] items-start justify-start md:mt-0 mt-[116px] w-1/2 md:w-full">
+                <Text
+                  className="leading-[19.00px] sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
+                  size="txtInterSemiBold28"
+                >
+                  <Text>
+                    Use dados sesemsoeoseomaomsdfas.
+                    <br />
+                    Transforme a educação através da água.{" "}
                   </Text>
-                  <div className="md:h-[63px] h-[82px] relative w-full">
-                    <div className="absolute bottom-[0] h-[23px] right-[0] w-[26%]">
-                      <Text
-                        className="absolute h-max inset-y-[0] left-[0] my-auto text-blue-800 text-xs"
-                        size="txtInterSemiBold12"
-                      >
-                        Saiba mais
-                      </Text>
+                </Text>
+                <Button
+                  className="common-pointer cursor-pointer flex items-center justify-center min-w-[462px] sm:min-w-full rounded-[7px]"
+                  onClick={() => navigate("/buscarpagefour")}
+                  leftIcon={
+                    <Img
+                      className="h-6 mr-[11px]"
+                      src="images/img_rewind.svg"
+                      alt="rewind"
+                    />
+                  }
+                  color="gray_200"
+                  size="sm"
+                  variant="fill"
+                >
+                  <div className="text-[15px] text-left">buscar escola</div>
+                </Button>
+              </div>
+              <div className="h-[431px] relative w-[43%] md:w-full">
+                <Img
+                  className="h-[431px] m-auto object-cover w-full"
+                  src="images/img_designsemnome.png"
+                  alt="designsemnome"
+                />
+                <div className="absolute bg-white-A700 border border-blue-800 border-solid flex flex-col h-max inset-y-[0] items-center justify-end my-auto p-3 right-[6%] rounded-[10px] shadow-bs1 w-[78%]">
+                  <div className="flex flex-col gap-3.5 items-start justify-start w-[98%] md:w-full">
+                    <div className="flex flex-row items-start justify-start w-[36%] md:w-full">
                       <Img
-                        className="absolute h-[23px] inset-y-[0] my-auto right-[0] w-[22px]"
-                        src="images/img_arrowleft_blue_800.svg"
-                        alt="arrowleft"
+                        className="h-[19px] md:h-auto object-cover w-[19px]"
+                        src="images/img_designsemnome_19x19.png"
+                        alt="designsemnome_One"
                       />
+                      <Text
+                        className="ml-[5px] text-base text-blue-800"
+                        size="txtInterSemiBold16"
+                      >
+                        Você sabia?
+                      </Text>
                     </div>
                     <Text
-                      className="absolute leading-[16.00px] left-[0] text-[13px] text-blue_gray-900 top-[0] w-[96%] sm:w-full"
-                      size="txtInterRegular13"
+                      className="leading-[16.00px] text-black-900 text-sm"
+                      size="txtInterMedium14"
                     >
-                      Levantamento feito com base no Censo Escolar mostra que
-                      mais de 14 milhões de alunos sofrem com a falta de
-                      estrutura escolar.
+                      <Text>
+                        Mais de 8.000 escolas no Brasil não têm acesso
+                        <br />a água potável
+                      </Text>
                     </Text>
+                    <div className="md:h-[63px] h-[82px] relative w-full">
+                      <div className="absolute bottom-[0] h-[23px] right-[0] w-[26%]">
+                        <Text
+                          className="absolute h-max inset-y-[0] left-[0] my-auto text-blue-800 text-xs"
+                          size="txtInterSemiBold12"
+                        >
+                          Saiba mais
+                        </Text>
+                        <Img
+                          className="absolute h-[23px] inset-y-[0] my-auto right-[0] w-[22px]"
+                          src="images/img_arrowleft_blue_800.svg"
+                          alt="arrowleft"
+                        />
+                      </div>
+                      <Text
+                        className="absolute leading-[16.00px] left-[0] text-[13px] text-blue_gray-900 top-[0] w-[96%] sm:w-full"
+                        size="txtInterRegular13"
+                      >
+                        Levantamento feito com base no Censo Escolar mostra que
+                        mais de 14 milhões de alunos sofrem com a falta de
+                        estrutura escolar.
+                      </Text>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* MAIN */}
         <div className="flex flex-col items-center justify-start max-w-[1146px] mt-[76px] mx-auto md:px-5 w-full">
           <div className="flex flex-col justify-start w-full">
+            {/* MAIN-HEADER */}
             <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start md:ml-[0] ml-[11px] w-[87%] md:w-full">
               <HomePageOneColumnoquevocdeseja className="flex flex-col gap-[52px] h-[34px] md:h-auto items-start justify-start md:mt-0 mt-1 w-[407px] sm:w-full" />
               <Img
@@ -136,10 +141,13 @@ const HomePageOnePage: React.FC = () => {
               </div>
             </div>
             <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[740px] mr-[60px] mt-3.5 w-[30%]" />
+
+            {/* MAIN-CONTENT */}
             <div className="h-[622px] sm:h-[624px] md:h-[768px] mt-[18px] relative w-full">
               <div className="flex flex-col m-auto w-full">
                 <div className="sm:h-[606px] h-[610px] md:h-[750px] m-auto w-full">
                   <div className="sm:h-[606px] h-[610px] md:h-[750px] m-auto w-full">
+                    {/* MAIN-CONTENT-LEFT */}
                     <div className="absolute flex md:flex-col flex-row md:gap-10 h-max inset-[0] items-start justify-between m-auto w-[97%]">
                       <div className="h-[606px] sm:h-[673px] relative w-[65%] md:w-full">
                         <div className="absolute h-[606px] sm:h-[673px] inset-[0] justify-center m-auto w-full">
@@ -298,37 +306,41 @@ const HomePageOnePage: React.FC = () => {
                             />
                           </div>
                           <Img
-                            className="absolute h-[178px] left-[0] top-[7%]"
+                            className=" ah-[178px] left-[0] top-[7%]"
                             src="images/img_group_white_a700_178x275.svg"
                             alt="group_Fifteen"
                           />
+                          <Img
+                            className="absolute h-[83px] inset-x-[0] mx-auto top-[2%]"
+                            src="images/img_globe.svg"
+                            alt="globe"
+                          />
+                          <Img
+                            className="absolute h-6 right-[14%] top-[34%]"
+                            src="images/img_group_white_a700.svg"
+                            alt="group_Sixteen"
+                          />
+                          <Img
+                            className="absolute h-[60px] left-[0] top-[30%]"
+                            src="images/img_group_white_a700_60x116.svg"
+                            alt="group_Seventeen"
+                          />
                         </div>
-                        <Img
-                          className="absolute h-[83px] inset-x-[0] mx-auto top-[2%]"
-                          src="images/img_globe.svg"
-                          alt="globe"
-                        />
-                        <Img
-                          className="absolute h-6 right-[14%] top-[34%]"
-                          src="images/img_group_white_a700.svg"
-                          alt="group_Sixteen"
-                        />
-                        <Img
-                          className="absolute h-[60px] left-[0] top-[30%]"
-                          src="images/img_group_white_a700_60x116.svg"
-                          alt="group_Seventeen"
-                        />
                       </div>
-                      <div className="h-[104px] md:mt-0 mt-[25px] relative w-1/5 md:w-full">
+                    </div>
+                    {/* MAIN-CONTENT-RIGHT */}
+                    <div>
+                      <div>
+                       
                         <Text
-                          className="leading-[16.00px] m-auto text-2xl md:text-[22px] text-blue-800 text-center sm:text-xl"
+                          className=" Aleading-[16.00px] m-auto text-2xl md:text-[22px] text-blue-800 text-center sm:text-xl"
                           size="txtInterSemiBold24"
                         >
-                          <>
+                          <Text>
                             Água tratada
                             <br />
                             (rede pública)
-                          </>
+                          </Text>
                         </Text>
                         <Img
                           className="absolute h-[34px] left-[15%] object-cover top-[6%] w-[34px]"
@@ -336,90 +348,94 @@ const HomePageOnePage: React.FC = () => {
                           alt="designsemnome_Three"
                         />
                       </div>
-                    </div>
-                    <div className="absolute h-[164px] right-[21%] shadow-bs1 top-[0] w-[164px]">
-                      <Img
-                        className="h-[164px] m-auto object-cover w-[164px]"
-                        src="images/img_designsemnome_164x164.png"
-                        alt="designsemnome_Four"
-                      />
-                      <Text
-                        className="absolute h-max inset-[0] justify-center m-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
-                        size="txtInterSemiBold40"
-                      >
-                        60%
-                      </Text>
-                    </div>
-                    <Text
-                      className="absolute leading-[16.00px] right-[0] text-2xl md:text-[22px] text-blue-800 sm:text-xl top-[37%]"
-                      size="txtInterSemiBold24"
-                    >
-                      <>
-                        Esgoto
-                        <br />
-                        (rede pública)
-                      </>
-                    </Text>
-                  </div>
-                  <div className="absolute bottom-[17%] flex flex-col items-start justify-start right-[2%] w-[34%]">
-                    <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[11px] w-[90%]" />
-                    <div className="flex flex-row gap-3 items-start justify-start mt-[9px] w-[55%] md:w-full">
-                      <div className="h-[164px] relative w-[164px]">
+                      <div className="absolute h-[164px] right-[21%] shadow-bs1 top-[0] w-[164px]">
                         <Img
                           className="h-[164px] m-auto object-cover w-[164px]"
-                          src="images/img_designsemnome_1.png"
-                          alt="designsemnome_Five"
+                          src="images/img_designsemnome_164x164.png"
+                          alt="designsemnome_Four"
                         />
                         <Text
-                          className="absolute bottom-[32%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
+                          className="absolute h-max inset-[0] justify-center m-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
                           size="txtInterSemiBold40"
                         >
-                          44%
+                          60%
                         </Text>
                       </div>
-                      <Img
-                        className="h-8 md:h-auto mt-9 object-cover w-8"
-                        src="images/img_designsemnome_32x32.png"
-                        alt="designsemnome_Six"
-                      />
+                      <Text
+                        className="absolute leading-[16.00px] right-[0] text-2xl md:text-[22px] text-blue-800 sm:text-xl top-[37%]"
+                        size="txtInterSemiBold24"
+                      >
+                        <>
+                          Esgoto
+                          <br />
+                          (rede pública)
+                        </>
+                      </Text>
+                      <div className="absolute bottom-[17%] flex flex-col items-start justify-start right-[2%] w-[34%]">
+                        <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[11px] w-[90%]" />
+                        <div className="flex flex-row gap-3 items-start justify-start mt-[9px] w-[55%] md:w-full">
+                          <div className="h-[164px] relative w-[164px]">
+                            <Img
+                              className="h-[164px] m-auto object-cover w-[164px]"
+                              src="images/img_designsemnome_1.png"
+                              alt="designsemnome_Five"
+                            />
+                            <Text
+                              className="absolute bottom-[32%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
+                              size="txtInterSemiBold40"
+                            >
+                              44%
+                            </Text>
+                          </div>
+                          <Img
+                            className="h-8 md:h-auto mt-9 object-cover w-8"
+                            src="images/img_designsemnome_32x32.png"
+                            alt="designsemnome_Six"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[11px] mt-[25px] w-[90%]" />
+                        <Text
+                          className="md:ml-[0] ml-[186px] mt-[93px] text-2xl md:text-[22px] text-blue-800 sm:text-xl"
+                          size="txtInterSemiBold24"
+                        >
+                          Água inexistente
+                        </Text>
+                        <Img
+                          className="absolute bottom-1/4 h-8 object-cover right-[16%] w-8"
+                          src="images/img_designsemnome_2.png"
+                          alt="designsemnome_Eight"
+                        />
+
+                        <Text
+                          className="ml-auto mr-[237px] mt-[-2.99px] text-blue-800 text-center text-xs z-[1]"
+                          size="txtInterRegular12"
+                        >
+                          Fonte: Censo, INEP - 2022
+                        </Text>
+                        <div className="h-[231px] md:h-[NaNpx] mb-[22px] ml-auto mr-[204px] mt-[-NaNpx] w-[231px] z-[1]">
+                          <Img
+                            className="h-[231px] m-auto object-cover w-[231px]"
+                            src="images/img_designsemnome_231x231.png"
+                            alt="designsemnome_Seven"
+                          />
+                          <Text
+                            className="absolute h-max inset-[0] justify-center m-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
+                            size="txtInterSemiBold40"
+                          >
+                            4%
+                          </Text>
+                        </div>
+                      </div>
                     </div>
-                    <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[11px] mt-[25px] w-[90%]" />
-                    <Text
-                      className="md:ml-[0] ml-[186px] mt-[93px] text-2xl md:text-[22px] text-blue-800 sm:text-xl"
-                      size="txtInterSemiBold24"
-                    >
-                      Água inexistente
-                    </Text>
                   </div>
                 </div>
-                <Text
-                  className="ml-auto mr-[237px] mt-[-2.99px] text-blue-800 text-center text-xs z-[1]"
-                  size="txtInterRegular12"
-                >
-                  Fonte: Censo, INEP - 2022
-                </Text>
-                <div className="h-[231px] md:h-[NaNpx] mb-[22px] ml-auto mr-[204px] mt-[-NaNpx] w-[231px] z-[1]">
-                  <Img
-                    className="h-[231px] m-auto object-cover w-[231px]"
-                    src="images/img_designsemnome_231x231.png"
-                    alt="designsemnome_Seven"
-                  />
-                  <Text
-                    className="absolute h-max inset-[0] justify-center m-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
-                    size="txtInterSemiBold40"
-                  >
-                    4%
-                  </Text>
-                </div>
               </div>
-              <Img
-                className="absolute bottom-1/4 h-8 object-cover right-[16%] w-8"
-                src="images/img_designsemnome_2.png"
-                alt="designsemnome_Eight"
-              />
             </div>
           </div>
         </div>
+        {/* CARROSEUL */}
         <div className="flex flex-col mt-10 md:px-5 relative w-full">
           <div className="bg-gray-100 flex flex-col gap-[26px] justify-end mx-auto p-[38px] sm:px-5 w-full">
             <Text
@@ -460,153 +476,163 @@ const HomePageOnePage: React.FC = () => {
                   className="absolute bg-gray-100 inset-[0] justify-center m-auto w-full"
                   items={[...Array(3)].map(() => (
                     <React.Fragment key={Math.random()}>
-                      <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between mx-2.5">
-                        <Img
-                          className="h-[122px] md:h-auto sm:mt-0 mt-[13px] object-cover w-[122px]"
-                          src="images/img_17.png"
-                          alt="Seventeen"
-                        />
-                        <Img
-                          className="h-[108px] md:h-auto sm:mt-0 mt-[13px] object-cover"
-                          src="images/img_224.png"
-                          alt="TwoHundredTwentyFour"
-                        />
-                        <Img
-                          className="h-[122px] md:h-auto object-cover w-[122px]"
-                          src="images/img_31.png"
-                          alt="ThirtyOne"
-                        />
-                        <Img
-                          className="h-[130px] md:h-auto sm:mt-0 mt-[5px] object-cover w-[130px]"
-                          src="images/img_45.png"
-                          alt="FortyFive"
-                        />
-                        <Img
-                          className="h-[104px] md:h-auto sm:mt-0 mt-[13px] object-cover w-[104px]"
-                          src="images/img_designsemnome_104x104.png"
-                          alt="designsemnome"
-                        />
+                      <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between max-h-lg mx-10">
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[122px] md:h-auto object-cover w-[122px]"
+                            src="images/img_17.png"
+                            alt="Seventeen"
+                          />
+                          <Text
+                            className="absolute bottom-[6%] left-[6%] text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                Quase 100 milhões de
+                                <br />
+                                brasileiros (44,2%) não
+                                <br />
+                                tem acesso a coleta de
+                                <br />
+                                esgosto.
+                                <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: SNIS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[122px] md:h-auto object-cover w-[94px]"
+                            src="images/img_224.png"
+                            alt="TwoHundredTwentyFour"
+                          />
+                          <Text
+                            className="absolute  bottom-[6%] left-1/4 text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                84,2% dos <br />
+                                brasileiros têm
+                                <br />
+                                acesso a água <br />
+                                tratatada.
+                                <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: SNIS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[122px] md:h-auto object-cover w-[122px]"
+                            src="images/img_31.png"
+                            alt="ThirtyOne"
+                          />
+                          <Text
+                            className="absolute  bottom-[6%] inset-x-[0] mx-auto text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                O Brasil teve mais de
+                                <br />
+                                130 miil internações em
+                                <br />
+                                2021 por doenças de
+                                <br />
+                                veiculação hídrica. <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: DATASUS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[130px] md:h-auto sm:mt-0 mt-[5px] object-cover w-[130px]"
+                            src="images/img_45.png"
+                            alt="FortyFive"
+                          />
+                          <Text
+                            className=" bottom-[6%] right-[26%] text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                55,8% dos
+                                <br />
+                                brasileiros têm <br />
+                                acesso a coleta de
+                                <br />
+                                esgoto. <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: SNIS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col items-center text-center">
+                          <Img
+                            className="  ah-[122px] ah-[104px] md:h-auto sm:mt-0 mt-[13px] object-cover w-[104px]"
+                            src="images/img_designsemnome_104x104.png"
+                            alt="designsemnome"
+                          />
+                          <Text
+                            className="absolute bottom-[0] right-[3%] text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                O Brasil investiu mais
+                                <br />
+                                de 17,3 bilhões em <br />
+                                saneamento básico
+                                <br />
+                                em 2021.
+                                <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: P. SANEAMENTO BRASIL
+                                <br />
+                                2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
                       </div>
                     </React.Fragment>
                   ))}
                 />
               </div>
-              <Text
-                className="absolute bottom-[6%] left-[6%] text-blue-800 text-center text-xs"
-                size="txtInterRegular12Blue800"
-              >
-                <span className="text-blue-800 font-inter font-normal">
-                  <>
-                    Quase 100 milhões de
-                    <br />
-                    brasileiros (44,2%) não
-                    <br />
-                    tem acesso a coleta de
-                    <br />
-                    esgosto.
-                    <br />
-                    <br />
-                  </>
-                </span>
-                <span className="text-blue-800 font-inter font-normal italic">
-                  <>
-                    (FONTE: SNIS 2021)
-                    <br />
-                  </>
-                </span>
-              </Text>
-              <Text
-                className="absolute bottom-[6%] left-1/4 text-blue-800 text-center text-xs"
-                size="txtInterRegular12Blue800"
-              >
-                <span className="text-blue-800 font-inter font-normal">
-                  <>
-                    84,2% dos <br />
-                    brasileiros têm
-                    <br />
-                    acesso a água <br />
-                    tratatada.
-                    <br />
-                    <br />
-                  </>
-                </span>
-                <span className="text-blue-800 font-inter font-normal italic">
-                  <>
-                    (FONTE: SNIS 2021)
-                    <br />
-                  </>
-                </span>
-              </Text>
-              <Text
-                className="absolute bottom-[6%] inset-x-[0] mx-auto text-blue-800 text-center text-xs"
-                size="txtInterRegular12Blue800"
-              >
-                <span className="text-blue-800 font-inter font-normal">
-                  <>
-                    O Brasil teve mais de
-                    <br />
-                    130 miil internações em
-                    <br />
-                    2021 por doenças de
-                    <br />
-                    veiculação hídrica. <br />
-                    <br />
-                  </>
-                </span>
-                <span className="text-blue-800 font-inter font-normal italic">
-                  <>
-                    (FONTE: DATASUS 2021)
-                    <br />
-                  </>
-                </span>
-              </Text>
-              <Text
-                className="absolute bottom-[6%] right-[26%] text-blue-800 text-center text-xs"
-                size="txtInterRegular12Blue800"
-              >
-                <span className="text-blue-800 font-inter font-normal">
-                  <>
-                    55,8% dos
-                    <br />
-                    brasileiros têm <br />
-                    acesso a coleta de
-                    <br />
-                    esgoto. <br />
-                    <br />
-                  </>
-                </span>
-                <span className="text-blue-800 font-inter font-normal italic">
-                  <>
-                    (FONTE: SNIS 2021)
-                    <br />
-                  </>
-                </span>
-              </Text>
-              <Text
-                className="absolute bottom-[0] right-[3%] text-blue-800 text-center text-xs"
-                size="txtInterRegular12Blue800"
-              >
-                <span className="text-blue-800 font-inter font-normal">
-                  <>
-                    O Brasil investiu mais
-                    <br />
-                    de 17,3 bilhões em <br />
-                    saneamento básico
-                    <br />
-                    em 2021.
-                    <br />
-                    <br />
-                  </>
-                </span>
-                <span className="text-blue-800 font-inter font-normal italic">
-                  <>
-                    (FONTE: P. SANEAMENTO BRASIL
-                    <br />
-                    2021)
-                    <br />
-                  </>
-                </span>
-              </Text>
             </div>
           </div>
           <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
