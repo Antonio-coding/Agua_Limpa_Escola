@@ -31,7 +31,7 @@ const HomePageOnePage: React.FC = () => {
                 size="txtInterSemiBold28"
               >
                 <>
-                  Use dados.
+                  Use dados sesemsoeoseomaomsdfas.
                   <br />
                   Transforme a educação através da água.{" "}
                 </>

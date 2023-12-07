@@ -23,6 +23,7 @@ export type InputProps = Omit<
     suffix: React.ReactNode;
     onChange: Function;
     shape: keyof typeof shapes;
+    size?: string;
     variant: keyof typeof variants;
 
     color: string;

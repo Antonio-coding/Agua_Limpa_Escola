@@ -35,7 +35,7 @@ const SelectBox = React.forwardRef<any, SelectProps>(
       indicator,
       ...restProps
     },
-    ref,
+    ref
   ) => {
     const [selectedVal, setSelectedVal] = React.useState(value);
 
@@ -66,11 +66,11 @@ const SelectBox = React.forwardRef<any, SelectProps>(
           value={selectedVal}
           onChange={handleChange}
           styles={{
-            container: (provided) => ({
+            container: (provided: any) => ({
               ...provided,
               zIndex: 0,
             }),
-            control: (provided) => ({
+            control: (provided: any) => ({
               ...provided,
               backgroundColor: "transparent",
               border: "0 !important",
@@ -80,41 +80,41 @@ const SelectBox = React.forwardRef<any, SelectProps>(
                 border: "0 !important",
               },
             }),
-            option: (provided, state) => ({
+            option: (provided: any, state: any) => ({
               ...provided,
               color: state.isSelected && "#fafafa",
               backgroundColor: state.isSelected && "#56acde",
               "&:hover": { backgroundColor: "#56acde", color: "#ffffff" },
             }),
-            singleValue: (provided) => ({
+            singleValue: (provided: any) => ({
               ...provided,
               color: "inherit",
             }),
-            input: (provided) => ({
+            input: (provided: any) => ({
               ...provided,
               color: "inherit",
               margin: "0",
               padding: "0",
               // height: "0",
             }),
-            valueContainer: (provided) => ({
+            valueContainer: (provided: any) => ({
               ...provided,
               padding: "0",
             }),
-            dropdownIndicator: (provided) => ({
+            dropdownIndicator: (provided: any) => ({
               ...provided,
               paddingTop: "0px",
               paddingBottom: "0px",
             }),
-            clearIndicator: (provided) => ({
+            clearIndicator: (provided: any) => ({
               ...provided,
               padding: "0",
             }),
-            multiValueLabel: (provided) => ({
+            multiValueLabel: (provided: any) => ({
               ...provided,
               padding: "0",
             }),
-            menuPortal: (base) => ({ ...base, zIndex: 999999 }),
+            menuPortal: (base: any) => ({ ...base, zIndex: 999999 }),
           }}
           menuPortalTarget={document.body}
           closeMenuOnScroll={(event: any) => {
@@ -126,7 +126,7 @@ const SelectBox = React.forwardRef<any, SelectProps>(
         {children}
       </>
     );
-  },
+  }
 );
 
 export { SelectBox };

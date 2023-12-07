@@ -1,4 +1,6 @@
 export { Button } from "./Button";
+export { ErrorMessage } from "./ErrorMessage";
+
 export { Img } from "./Img";
 export { Input } from "./Input";
 export { Line } from "./Line";

@@ -75,15 +75,15 @@ const BuscarPageFourPage: React.FC = () => {
                   PE
                 </Text>
               </div>
-              <div className="sm:h-5 h-[37px] md:h-[71px] sm:mt-0 mt-[51px] relative w-[15%] sm:w-full">
+              <div className="flex flex-col items-start justify-start">
                 <Text
-                  className="absolute left-[0] text-base text-blue-800 top-[0]"
+                  className="text-base text-blue-800"
                   size="txtInterMedium16Blue800"
                 >
                   Munícipio
                 </Text>
                 <Text
-                  className="absolute bottom-[0] inset-x-[0] mx-auto text-base text-black-900 w-max"
+                  className="text-base text-black-900"
                   size="txtInterMedium16"
                 >
                   PARNAMIRIM
