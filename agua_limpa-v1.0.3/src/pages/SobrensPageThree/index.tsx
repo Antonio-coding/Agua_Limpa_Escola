@@ -57,7 +57,7 @@ const SobrensPageThreePage: React.FC = () => {
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
                         size="txtInterSemiBold28"
                       >
-                        Thiago Antônio Neto
+                        Antônio Thiago Neto
                       </Text>
                       <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
                         <Img
