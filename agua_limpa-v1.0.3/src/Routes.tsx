@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NotFound from "pages/NotFound";
-import SobreNos from "pages/SobreNos";
 const MapaPageSix = React.lazy(() => import("pages/MapaPageSix"));
 const MapaPageFive = React.lazy(() => import("pages/MapaPageFive"));
 const BuscarPageFour = React.lazy(() => import("pages/BuscarPageFour"));
@@ -17,7 +16,6 @@ const ProjectRoutes = () => {
           <Route path="/" element={<HomePageOne />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/homepageone" element={<HomePageOne />} />
-          <Route path="/sobrenos" element={<SobreNos />} />
           <Route path="/tcnicaspage02" element={<TcnicasPage02 />} />
           <Route path="/sobrenspagethree" element={<SobrensPageThree />} />
           <Route path="/buscarpagefour" element={<BuscarPageFour />} />
