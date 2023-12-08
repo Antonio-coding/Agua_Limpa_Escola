@@ -25,7 +25,7 @@ const SobrensPageThreePage: React.FC = () => {
             </Text>
           </div>
           <Text
-            className="leading-[29.00px] text-start mt-[3px] text-black-900 text-sm w-[83%] sm:w-full"
+            className="leading-[29.00px] text-start m-10 mt-[3px] text-black-900 text-sm w-[83%] sm:w-full"
             size="txtInterRegular14"
           >
             Acreditar que dados são essenciais no processo de transformação da
@@ -94,7 +94,7 @@ const SobrensPageThreePage: React.FC = () => {
                   <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
-                      src="images/img_71.png"
+                      src="images/img_101.png"
                       alt="SeventyOne"
                     />
                     <div className="flex flex-col items-start justify-start md:mt-0 mt-[27px] w-[72%] md:w-full">
@@ -114,7 +114,7 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mt-[11px] text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://github.com/Antonio-coding
+                          https://github.com/caio-coding
                         </Text>
                       </div>
                       <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
@@ -127,15 +127,17 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mb-0.5 sm:mt-0 mt-2.5 text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
+                          https://www.linkedin.com/in/ant%C3%B4nio-caio-b4694524b/
                         </Text>
                       </div>
                     </div>
+                    
                   </div>
+                  <Line className="self-center h-px bg-blue_gray-100 w-full" />
                   <div className="flex my-0 relative w-full">
                     <Img
                       className="h-[166px] my-auto object-cover w-[166px]"
-                      src="images/img_101.png"
+                      src="images/img_111.png"
                       alt="OneHundredOne"
                     />
                     
@@ -144,7 +146,7 @@ const SobrensPageThreePage: React.FC = () => {
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
                         size="txtInterSemiBold28"
                       >
-                        Caio Roberto
+                        Jefferson Marques
                       </Text>
                       <div className="flex flex-row gap-[9px] items-end justify-start mt-[18px] w-[58%] md:w-full">
                         <Img
@@ -156,7 +158,7 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mt-[11px] text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://github.com/Antonio-coding
+                          https://github.com/Jefferson-coding
                         </Text>
                       </div>
                       <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
@@ -169,11 +171,12 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mb-0.5 sm:mt-0 mt-2.5 text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
+                          https://www.linkedin.com/in/ant%C3%B4nio-jefferson-b4694524b/
                         </Text>
                       </div>
                     </div>
                   </div>
+                  <Line className="self-center h-px bg-blue_gray-100 w-full" />
                 </List>
                 <List
                   className="flex flex-col gap-[39px] items-center pt-[11px] px-[11px] w-[99%]"
@@ -221,6 +224,48 @@ const SobrensPageThreePage: React.FC = () => {
                     </div>
                   </div>
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
+                  <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
+                    <Img
+                      className="h-[166px] md:h-auto object-cover w-[166px]"
+                      src="images/img_101.png"
+                      alt="SeventyOne"
+                    />
+                    <div className="flex flex-col items-start justify-start md:mt-0 mt-[27px] w-[72%] md:w-full">
+                      <Text
+                        className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
+                        size="txtInterSemiBold28"
+                      >
+                        Caio Roberto
+                      </Text>
+                      <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
+                        <Img
+                         className="h-8 md:h-auto object-cover w-8"
+                         src="images/img_121.png"
+                         alt="OneHundredTwentyOne"
+                        />
+                        <Text
+                          className="mt-[11px] text-[15px] text-black-900"
+                          size="txtInterRegular15"
+                        >
+                          https://github.com/caio-coding
+                        </Text>
+                      </div>
+                      <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
+                        <Img
+                          className="h-8 md:h-auto object-cover w-8"
+                          src="images/img_131.png"
+                          alt="OneHundredThirtyOne"
+                        />
+                        <Text
+                          className="mb-0.5 sm:mt-0 mt-2.5 text-[15px] text-black-900"
+                          size="txtInterRegular15"
+                        >
+                          https://www.linkedin.com/in/ant%C3%B4nio-caio-b4694524b/
+                        </Text>
+                      </div>
+                    </div>
+                    
+                  </div>
                   <div className="flex md:flex-col flex-row gap-[41px] items-start justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
