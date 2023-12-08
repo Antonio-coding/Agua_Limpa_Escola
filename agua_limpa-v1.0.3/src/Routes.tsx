@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "pages/Home";
 import NotFound from "pages/NotFound";
 const MapaPageSix = React.lazy(() => import("pages/MapaPageSix"));
 const MapaPageFive = React.lazy(() => import("pages/MapaPageFive"));
@@ -13,7 +12,7 @@ const ProjectRoutes = () => {
     <React.Suspense fallback={<>Loading...</>}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePageOne />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/homepageone" element={<HomePageOne />} />
           <Route path="/tcnicaspage02" element={<TcnicasPage02 />} />
