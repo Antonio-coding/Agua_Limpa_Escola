@@ -32,6 +32,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <Text
                   className="ml-10 text-[11.14px] text-blue-800"
                   size="txtInterMedium1114"
+                  onClick={() => navigate("/tcnicaspage02")}
                 >
                   Técnicas
                 </Text>
@@ -40,6 +41,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <Text
                   className="ml-[38px] text-[11.14px] text-blue-800"
                   size="txtInterMedium1114"
+                  onClick={() => navigate("/sobrenspagethree")}
                 >
                   Sobre nós
                 </Text>
@@ -47,6 +49,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             </ul>
             <Button
               className="cursor-pointer flex items-center justify-center min-w-[114px]"
+              onClick={() => navigate("/buscarpagefour")}
               rightIcon={
                 <Img
                   className="h-[11px] ml-[5px] my-1"
