@@ -90,13 +90,55 @@ const SobrensPageThreePage: React.FC = () => {
                       </div>
                     </div>
                   </div>
+                  <Line className="self-center h-px bg-blue_gray-100 w-full" />
+                  <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
+                    <Img
+                      className="h-[166px] md:h-auto object-cover w-[166px]"
+                      src="images/img_71.png"
+                      alt="SeventyOne"
+                    />
+                    <div className="flex flex-col items-start justify-start md:mt-0 mt-[27px] w-[72%] md:w-full">
+                      <Text
+                        className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
+                        size="txtInterSemiBold28"
+                      >
+                        Caio Roberto
+                      </Text>
+                      <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
+                        <Img
+                         className="h-8 md:h-auto object-cover w-8"
+                         src="images/img_121.png"
+                         alt="OneHundredTwentyOne"
+                        />
+                        <Text
+                          className="mt-[11px] text-[15px] text-black-900"
+                          size="txtInterRegular15"
+                        >
+                          https://github.com/Antonio-coding
+                        </Text>
+                      </div>
+                      <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
+                        <Img
+                          className="h-8 md:h-auto object-cover w-8"
+                          src="images/img_131.png"
+                          alt="OneHundredThirtyOne"
+                        />
+                        <Text
+                          className="mb-0.5 sm:mt-0 mt-2.5 text-[15px] text-black-900"
+                          size="txtInterRegular15"
+                        >
+                          https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
+                        </Text>
+                      </div>
+                    </div>
+                  </div>
                   <div className="flex my-0 relative w-full">
                     <Img
                       className="h-[166px] my-auto object-cover w-[166px]"
                       src="images/img_101.png"
                       alt="OneHundredOne"
                     />
-                    <Line className="bg-blue_gray-100 h-px ml-[-166px] mr-auto w-full z-[1]" />
+                    
                     <div className="flex flex-col items-start justify-start mb-[7px] ml-[undefinedpx] mr-[61px] mt-auto w-[66%] z-[1]">
                       <Text
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"

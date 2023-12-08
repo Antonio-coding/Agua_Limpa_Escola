@@ -52,6 +52,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 Sobre nós
               </Text>
             </li>
+           
           </ul>
           <Button
             className="cursor-pointer flex items-center justify-center min-w-[114px]"
