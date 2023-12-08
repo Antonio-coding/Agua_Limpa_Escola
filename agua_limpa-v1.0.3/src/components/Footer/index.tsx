@@ -28,12 +28,12 @@ const Footer: React.FC<FooterProps> = (props) => {
               />
               <div className="flex relative w-[24%] sm:w-full">
                 <Img
-                  className="h-[52px] my-auto object-cover w-[72%]"
+                  className="h-[38px] my-auto object-cover w-[58%]"
                   src="images/img_gua31.png"
                   alt="guaThirtyTwo"
                 />
                 <Text
-                  className="mb-[9px] ml-[-8px] mt-auto sm:text-[19px] md:text-[21px] text-[23px] text-white-A700 z-[1]"
+                  className="mb-[0px] ml-[-5px] mt-auto sm:text-[19px] md:text-[21px] text-[23px] text-white-A700 z-[1]"
                   size="txtInterRegular23"
                 >
                   & Você

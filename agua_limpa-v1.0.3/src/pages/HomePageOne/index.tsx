@@ -8,7 +8,6 @@ import Header from "components/Header";
 import HomePageOneColumnoquevocdeseja from "components/HomePageOneColumnoquevocdeseja";
 
 
-
 const HomePageOnePage: React.FC = () => {
   const navigate = useNavigate();
 

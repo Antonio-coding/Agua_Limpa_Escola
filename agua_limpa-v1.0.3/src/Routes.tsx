@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import NotFound from "pages/NotFound";
 const MapaPageSix = React.lazy(() => import("pages/MapaPageSix"));
 const MapaPageFive = React.lazy(() => import("pages/MapaPageFive"));
