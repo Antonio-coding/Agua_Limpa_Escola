@@ -221,7 +221,7 @@ const TcnicasPage02Page: React.FC = () => (
         size="txtInterSemiBold28"
       >
         Saiba mais
-      </Text>
+      </Text>     
     </div>
     <Footer className="bg-blue-800 flex items-center justify-center md:px-5 w-full" />
   </>
