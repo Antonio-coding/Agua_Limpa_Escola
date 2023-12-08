@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Frame = (): JSX.Element => {
+export const Modal = (): JSX.Element => {
   return (
     <div className="inline-flex flex-col items-start gap-[10px] relative">
       <div className="relative h-[331px] bg-white border border-solid border-[#2d73b5] shadow-[0px_4px_4px_#00000040] w-[363px] rounded-[10px]" />
@@ -62,3 +62,5 @@ export const Frame = (): JSX.Element => {
     </div>
   );
 };
+
+
