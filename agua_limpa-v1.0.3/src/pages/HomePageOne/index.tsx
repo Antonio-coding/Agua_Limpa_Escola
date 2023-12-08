@@ -32,6 +32,7 @@ const HomePageOnePage: React.FC = () => {
                   <br />
                   <br />
                   Transforme a educação através da água.{" "}
+                  Transforme a educação através da água.{" "}
                 </Text>
               </Text>
               <Button
