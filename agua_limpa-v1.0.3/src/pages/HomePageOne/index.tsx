@@ -7,11 +7,7 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import HomePageOneColumnoquevocdeseja from "components/HomePageOneColumnoquevocdeseja";
 
-const depoimentosOptionsList = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
-];
+
 
 const HomePageOnePage: React.FC = () => {
   const navigate = useNavigate();
@@ -649,8 +645,8 @@ const HomePageOnePage: React.FC = () => {
               </div>
             </div>
           </div>
-          <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
         </div>
+          <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
       </div>
     </>
   );
