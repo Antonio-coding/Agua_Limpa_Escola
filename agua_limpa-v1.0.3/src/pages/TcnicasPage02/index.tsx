@@ -36,17 +36,17 @@ const TcnicasPage02Page: React.FC = () => (
           <>
             <ul className="list-disc">
               <li>
-              Utilize tecidos ou panos limpos para a remoção inicial de
-            partículas sólidas da água.
-            </li>
-            </ul>           
+                Utilize tecidos ou panos limpos para a remoção inicial de
+                partículas sólidas da água.
+              </li>
+            </ul>
           </>
         </Text>
         <Text
           className="leading-[19.00px] ml-28 font-boldmd:ml-[0] mt-[20px] text-[15px] text-black-900"
           size="txtInterRegular15"
         >
-          <>          
+          <>
             2 - Decantação Natural:
           </>
         </Text>
@@ -55,12 +55,12 @@ const TcnicasPage02Page: React.FC = () => (
           size="txtInterRegular15"
         >
           <>
-          <ul className="list-disc">
-            <li>
-            Permita que a água repouse em recipientes largos para que as
-            impurezas sedimentem no fundo.
-              </li>
-          </ul>            
+            <ul className="list-disc">
+              <li>
+                Permita que a água repouse em recipientes largos para que as
+                impurezas sedimentem <br/>no fundo.
+                </li>
+            </ul>
           </>
         </Text>
         <Text
@@ -76,12 +76,12 @@ const TcnicasPage02Page: React.FC = () => (
           size="txtInterRegular15"
         >
           <>
-          <ul className="list-disc">
-            <li>
-            Ferva a água por pelo menos 5 minutos para assegurar a
-            eliminação de microorganismos prejudiciais.
+            <ul className="list-disc">
+              <li>
+                Ferva a água por pelo menos 5 minutos para assegurar a
+                eliminação de <br/>microorganismos prejudiciais.
               </li>
-          </ul>            
+            </ul>
           </>
         </Text>
         <Text
@@ -97,12 +97,12 @@ const TcnicasPage02Page: React.FC = () => (
           size="txtInterRegular15"
         >
           <>
-          <ul className="list-disc">
-            <li>
-            Adicione algumas gotas de água sanitária por litro, agite e
-            aguarde 30 minutos antes do consumo.
+            <ul className="list-disc">
+              <li>
+                Adicione algumas gotas de água sanitária por litro, agite e
+                aguarde 30 minutos antes do <br/>consumo.
               </li>
-          </ul>            
+            </ul>
           </>
         </Text>
 
@@ -119,19 +119,19 @@ const TcnicasPage02Page: React.FC = () => (
           size="txtInterRegular15"
         >
           <>
-          <ul className="list-disc">
-            <li>
-            Utilize garrafas transparentes e exponha a água ao sol por 6
-            horas para desinfecção solar.
+            <ul className="list-disc">
+              <li>
+                Utilize garrafas transparentes e exponha a água ao sol por 6
+                horas para desinfecção <br/>solar.
               </li>
-          </ul>            
+            </ul>
           </>
         </Text>
         <Text
           className="leading-[19.00px] font-bold ml-28 md:ml-[0] mt-[20px] text-[15px] text-black-900"
           size="txtInterRegular15"
         >
-          <>          
+          <>
             6 - Filtro Caseiro:
           </>
         </Text>
@@ -140,12 +140,12 @@ const TcnicasPage02Page: React.FC = () => (
           size="txtInterRegular15"
         >
           <>
-          <ul className="list-disc">
-            <li>
-            Crie um filtro improvisado com camadas de areia grossa, areia
-            fina e carvão ativado para remoção de impurezas.
+            <ul className="list-disc">
+              <li>
+                Crie um filtro improvisado com camadas de areia grossa, areia
+                fina e carvão ativado <br/>para remoção de impurezas.
               </li>
-          </ul>            
+            </ul>
           </>
         </Text>
       </div>
@@ -155,7 +155,7 @@ const TcnicasPage02Page: React.FC = () => (
       className="leading-[19.00px] font-bold ml-28 md:ml-[0] mt-[20px] text-[15px] text-black-900"
       size="txtInterRegular15"
     >
-      <>      
+      <>
         7 - Poder das Sementes de Moringa:
       </>
     </Text>
@@ -164,12 +164,12 @@ const TcnicasPage02Page: React.FC = () => (
       size="txtInterRegular15"
     >
       <>
-      <ul className="list-disc">
-            <li>
+        <ul className="list-disc">
+          <li>
             Triture sementes de moringa na água para suas propriedades
-             coagulantes naturais, permitindo a decantação e filtração.
-              </li>
-          </ul>        
+            coagulantes naturais, <br/>permitindo a decantação e filtração.
+          </li>
+        </ul>
       </>
     </Text>
     <Text
@@ -185,12 +185,12 @@ const TcnicasPage02Page: React.FC = () => (
       size="txtInterRegular15"
     >
       <>
-      <ul className="list-disc">
-            <li>
+        <ul className="list-disc">
+          <li>
             Em áreas com acesso mínimo a recursos, considere dispositivos de
-            luz ultravioleta para desinfecção.
-              </li>
-          </ul>        
+            luz ultravioleta para <br/>desinfecção.
+          </li>
+        </ul>
       </>
     </Text>
     <Text
@@ -207,21 +207,23 @@ const TcnicasPage02Page: React.FC = () => (
       <div className="flex flex-col items-center justify-start">
 
         <Img
-          className="h-[318px] flex flex-row mr-[-800px] mb-[300px] md:mt-0 mt-[-550px] w-[318px]"
+          className="h-[318px] flex flex-row ml-[62.5rem] mb-[300px] md:mt-0 mt-[-650px] w-[318px]"
           src="images/img_waterdropbro1.svg"
           alt="waterdropbroOne" />
 
-        <div className="bg-gray-100 flex flex-col items-start justify-start mt-[74px] p-[50px] md:px-10 sm:px-5 w-full">
-          <Text
-            className="mb-[436px] md:ml-[0] ml-[55px] sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
-            size="txtInterSemiBold28"
-          >
-            Saiba mais
-          </Text>
-        </div>
-        <Footer className="bg-blue-800 max-w-[1920px] flex items-center justify-center md:px-5 w-full" />
+
       </div>
+
     </div>
+    <div className="bg-gray-100 flex flex-col items-start justify-start mt-[74px] p-[50px] md:px-10 sm:px-5 w-full">
+      <Text
+        className="mb-[436px] w-full md:ml-[0] ml-[55px] sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
+        size="txtInterSemiBold28"
+      >
+        Saiba mais
+      </Text>
+    </div>
+    <Footer className="bg-blue-800 flex items-center justify-center md:px-5 w-full" />
   </>
 );
 
