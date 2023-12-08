@@ -1,7 +1,5 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
-
 import { Button, Img, Text } from "components";
 
 type HeaderProps = React.DetailedHTMLProps<
@@ -16,7 +14,7 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <>
       <header className={props.className}>
-        <div className="bg-white-A700 md:h-10 h-[75px] md:px-10 sm:px-5 px-[100.23px] py-[11.14px] relative shadow-bs w-full md:max-w-[1280px] mx-auto">
+        <div className="bg-white-A700 md:h-50 h-[75px] md:px-10 sm:px-5 px-[100.23px] py-[11.14px] relative shadow-bs w-full md:max-w-[1280px] mx-auto">
           <div className="flex flex-row gap-[22.27px] h-max items-center justify-end w-full">
             <ul className="flex flex-row sm:hidden items-center justify-center w-1/5 common-row-list">
               <li>
@@ -78,3 +76,4 @@ const Header: React.FC<HeaderProps> = (props) => {
 Header.defaultProps = {};
 
 export default Header;
+
