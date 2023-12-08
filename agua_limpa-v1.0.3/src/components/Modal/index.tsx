@@ -2,7 +2,29 @@ import React from "react";
 
 export const Modal = (): JSX.Element => {
   return (
-    <div className="inline-flex flex-col items-start gap-[10px] relative">
+
+  );
+};
+
+
+
+
+
+
+
+
+interface ModalProps {
+  isOpen: boolean;
+  onRequestClose: () => void;
+}
+
+const Modal: React.FC<ModalProps> = ({ isOpen, onRequestClose }) => {
+  return (
+    <>
+      {isOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+          <div className="inline-flex flex-col items-start gap-[10px] relative">
       <div className="relative h-[331px] bg-white border border-solid border-[#2d73b5] shadow-[0px_4px_4px_#00000040] w-[363px] rounded-[10px]" />
       <div className="absolute h-[57px] top-0 left-0 bg-[#2d73b5] w-[363px] rounded-[10px]" />
       <div className="absolute h-[30px] top-[12px] left-[47px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[20px] tracking-[0] leading-[29.7px] whitespace-nowrap">
@@ -60,7 +82,46 @@ export const Modal = (): JSX.Element => {
       </div>
       <img className="absolute w-[314px] h-[9px] top-[270px] left-[30px] object-cover" alt="Line" src="line-2.svg" />
     </div>
+            <div className="inline-flex flex-col items-start gap-[10px] relative">
+              {/* ... Seu conteúdo existente ... */}
+            </div>
+            {/* Fim do seu conteúdo do modal */}
+            <button onClick={onRequestClose}>Fechar Modal</button>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
+export default Modal;
 
+
+
+
+import React, { useState } from 'react';
+import { Modal } from './CaminhoDoSeuModalComponente';
+
+const SeuComponente: React.FC = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  return (
+    <div>
+      <button onClick={openModal}>Abrir Modal</button>
+      <Modal isOpen={isModalOpen} onRequestClose={closeModal} />
+    </div>
+  );
+};
+
+export default SeuComponente;
+
+
+Certifique-se de adaptar os nomes dos botões e funções conforme necessário para o seu caso de uso.
