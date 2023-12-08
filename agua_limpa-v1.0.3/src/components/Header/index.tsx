@@ -3,6 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import { Button, Img, Text } from "components";
+import SobreNos from 'pages/SobreNos';
 
 type HeaderProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLDivElement>,
@@ -51,6 +52,14 @@ const Header: React.FC<HeaderProps> = (props) => {
               >
                 Sobre nós
               </Text>
+            </li>
+            <li>
+              <Text className="common-pointer ml-10 text-[11.14px] text-blue-800"             
+                size="txtInterMedium1114"
+                onClick={() => navigate("/sobrenos")}
+              >
+                Sobre nós
+                </Text>
             </li>
           </ul>
           <Button
