@@ -14,30 +14,33 @@ const SobrensPageThreePage: React.FC = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
-        <Header className="flex flex-col items-center justify-center md:px-5 w-full" />
-        <div className="flex flex-col items-start mt-[126px] md:px-10 px-28 sm:px-5 w-full">
+        <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
+        <div className="left-[83%]">
+          <div className="flex flex-col items-start mt-[126px] md:px-10 px-28 sm:px-5 w-full">
+            <Text
+              className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
+              size="txtInterSemiBold28"
+            >
+              Sobre nós
+            </Text>
+          </div>
           <Text
-            className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
-            size="txtInterSemiBold28"
+            className="leading-[29.00px] text-start mt-[3px] text-black-900 text-sm w-[83%] sm:w-full"
+            size="txtInterRegular14"
           >
-            Sobre nós
+            Acreditar que dados são essenciais no processo de transformação da
+            educação brasileira é o que tem movido o Água Limpa. Nós queremos
+            estar presente no dia a dia das instituições e pessoas comprometidas
+            com a melhoria da educação básica, e, por isso, buscamos sempre
+            conhecer e suprir as necessidades das escolas e redes educação com
+            relação ao uso de dados e indicadores educacionais. O Água Limpa
+            está criando conexões mais fortes com cada um de seus públicos,
+            oferecendo mais dados, mais informações, mais conhecimento,
+            aprendendo e crescendo junto com ele, criando uma rede de pessoas
+            interessadas, engajadas e empoderadas para transformar a educação do
+            Brasil.{" "}
           </Text>
         </div>
-        <Text
-          className="leading-[29.00px] mt-[3px] text-black-900 text-sm w-[83%] sm:w-full"
-          size="txtInterRegular14"
-        >
-          Acreditar que dados são essenciais no processo de transformação da
-          educação brasileira é o que tem movido o Água Limpa. Nós queremos
-          estar presente no dia a dia das instituições e pessoas comprometidas
-          com a melhoria da educação básica, e, por isso, buscamos sempre
-          conhecer e suprir as necessidades das escolas e redes educação com
-          relação ao uso de dados e indicadores educacionais. O Água Limpa está
-          criando conexões mais fortes com cada um de seus públicos, oferecendo
-          mais dados, mais informações, mais conhecimento, aprendendo e
-          crescendo junto com ele, criando uma rede de pessoas interessadas,
-          engajadas e empoderadas para transformar a educação do Brasil.{" "}
-        </Text>
         <div className="flex flex-col items-start mt-[60px] md:px-10 sm:px-5 px-[104px] w-full">
           <div className="flex flex-col items-center justify-start w-[73%] md:w-full">
             <div className="flex flex-col items-center justify-start w-full">
