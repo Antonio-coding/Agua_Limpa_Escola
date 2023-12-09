@@ -56,12 +56,12 @@ const Footer: React.FC<FooterProps> = (props) => {
                     O que é o águalimpa?
                   </Text>
                   <Img
-                    className="h-[29px] md:ml-[0] ml-[344px] w-[29px]"
+                    className="h-[29px] md:ml-[0] ml-[500px] w-[30px]"
                     src="images/img_socialicons.svg"
                     alt="socialicons"
                   />
                   <Img
-                    className="h-[29px] md:ml-[0] ml-[26px] w-[29px]"
+                    className="h-[29px] md:ml-[0] ml-[26px] w-[60px]"
                     src="images/img_socialicons_white_a700.svg"
                     alt="socialicons_One"
                   />
@@ -71,12 +71,12 @@ const Footer: React.FC<FooterProps> = (props) => {
                     alt="airplane"
                   />
                   <Img
-                    className="h-[19px] md:ml-[0] ml-[325px] md:mt-0 mt-1.5 w-[19px]"
+                    className="h-[19px] md:ml-[0] ml-[436px] md:mt-0 mt-1.5 w-[19px]"
                     src="images/img_volume.svg"
                     alt="volume"
                   />
                   <Text
-                    className="md:ml-[0] ml-[7px] md:mt-0 mt-[7px] text-sm text-white-A700"
+                    className="md:ml-[0] ml-[10px] md:mt-0 mt-[7px] text-sm text-white-A700"
                     size="txtInterRegular14WhiteA700"
                   >
                     whatsapp
@@ -135,29 +135,15 @@ const Footer: React.FC<FooterProps> = (props) => {
               </li>
               <li>
                 <Img
-                  className="h-[62px] md:ml-[0] ml-[946px] mt-[13px]"
+                  className="h-[60px] md:ml-[0] ml-[1158px] mt-[10px]"
                   src="images/img_close_white_a700_62x63.svg"
                   alt="close"
                 />
               </li>
               <li>
-                <div className="h-5 md:h-[60px] md:ml-[0] ml-[417px] mt-10 relative">
-                  <Text
-                    className="absolute h-full inset-y-[0] left-[1%] my-auto text-base text-white-A700"
-                    size="txtInterRegular16WhiteA700"
-                  >
-                    c
-                  </Text>
-                  <Radio
-                    value="2023agualimpaCreatedbyBugHunters"
-                    className="font-inter mx-auto text-[13px] text-left text-white-A700"
-                    inputClassName="absolute border border-solid border-white-A700 h-3.5 mr-[5px] w-3.5"
-                    checked={false}
-                    name="agualimpa"
-                    label="2023 agualimpa Created by  BugHunters"
-                    id="2023agualimpaCreatedbyBugHunters"
-                  ></Radio>
-                </div>
+              <div className="font-inter mx-auto mt-50 text-[13px] text-center text-white-A700">
+               Copyright 2023 agualimpa. Created by BugHunters
+              </div>
               </li>
             </ul>
           </div>
