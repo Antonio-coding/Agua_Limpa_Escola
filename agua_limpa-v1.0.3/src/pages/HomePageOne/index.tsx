@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
@@ -16,13 +16,11 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import HomePageOneColumnoquevocdeseja from "components/HomePageOneColumnoquevocdeseja";
 import Modal from "./../../components/Modal/index";
-import AliceCarousel from "react-alice-carousel";
 
 const HomePageOnePage: React.FC = () => {
   const navigate = useNavigate();
 
-  const sliderRef = useRef<AliceCarousel>(null);
-
+  const sliderRef = React.useRef(null);
   const [sliderState, setsliderState] = React.useState(0);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -497,191 +495,191 @@ const HomePageOnePage: React.FC = () => {
                       className="cursor-pointer h-[41px] w-[41px]"
                       src="images/img_arrowleft_blue_800_41x41.svg"
                       alt="arrowleft_One"
-                      onClick={() => sliderRef.current?.slidePrev?.() as any} // Utilize 'as any' para assertiva de tipo
+                      onClick={() => sliderRef.current?.slidePrev?.()}
                     />
                     <Img
                       className="cursor-pointer h-10 w-10"
                       src="images/img_arrowright.svg"
                       alt="arrowright"
-                      onClick={() => sliderRef.current?.slideNext?.() as any} // Utilize 'as any' para assertiva de tipo
+                      onClick={() => sliderRef.current?.slideNext?.()}
                     />
                   </div>
-                  <Slider
-                    activeIndex={sliderState}
-                    responsive={{
-                      0: { items: 1 },
-                      550: { items: 1 },
-                      1050: { items: 1 },
-                    }}
-                    onSlideChanged={(e) => {
-                      setsliderState(e?.item);
-                    }}
-                    ref={sliderRef}
-                    className="absolute bg-gray-100 inset-[0] justify-center m-auto w-full"
-                    items={[...Array(3)].map(() => (
-                      <React.Fragment key={Math.random()}>
-                        <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between max-h-lg mx-10">
-                          <div className="flex flex-col">
-                            <Img
-                              className=" ah-[122px] md:h-auto object-cover w-[122px]"
-                              src="images/img_17.png"
-                              alt="Seventeen"
-                            />
-                            <Text
-                              className="absolute bottom-[6%] left-[6%] text-blue-800 text-center text-xs"
-                              size="txtInterRegular12Blue800"
-                            >
-                              <span className="text-blue-800 font-inter font-normal">
-                                <>
-                                  Quase 100 milhões de
-                                  <br />
-                                  brasileiros (44,2%) não
-                                  <br />
-                                  tem acesso a coleta de
-                                  <br />
-                                  esgosto.
-                                  <br />
-                                  <br />
-                                </>
-                              </span>
-                              <span className="text-blue-800 font-inter font-normal italic">
-                                <>
-                                  (FONTE: SNIS 2021)
-                                  <br />
-                                </>
-                              </span>
-                            </Text>
-                          </div>
-                          <div className="flex flex-col">
-                            <Img
-                              className=" ah-[122px] md:h-auto object-cover w-[94px]"
-                              src="images/img_224.png"
-                              alt="TwoHundredTwentyFour"
-                            />
-                            <Text
-                              className="absolute  bottom-[6%] left-1/4 text-blue-800 text-center text-xs"
-                              size="txtInterRegular12Blue800"
-                            >
-                              <span className="text-blue-800 font-inter font-normal">
-                                <>
-                                  84,2% dos <br />
-                                  brasileiros têm
-                                  <br />
-                                  acesso a água <br />
-                                  tratatada.
-                                  <br />
-                                  <br />
-                                </>
-                              </span>
-                              <span className="text-blue-800 font-inter font-normal italic">
-                                <>
-                                  (FONTE: SNIS 2021)
-                                  <br />
-                                </>
-                              </span>
-                            </Text>
-                          </div>
-                          <div className="flex flex-col">
-                            <Img
-                              className=" ah-[122px] md:h-auto object-cover w-[122px]"
-                              src="images/img_31.png"
-                              alt="ThirtyOne"
-                            />
-                            <Text
-                              className="absolute  bottom-[6%] inset-x-[0] mx-auto text-blue-800 text-center text-xs"
-                              size="txtInterRegular12Blue800"
-                            >
-                              <span className="text-blue-800 font-inter font-normal">
-                                <>
-                                  O Brasil teve mais de
-                                  <br />
-                                  130 miil internações em
-                                  <br />
-                                  2021 por doenças de
-                                  <br />
-                                  veiculação hídrica. <br />
-                                  <br />
-                                </>
-                              </span>
-                              <span className="text-blue-800 font-inter font-normal italic">
-                                <>
-                                  (FONTE: DATASUS 2021)
-                                  <br />
-                                </>
-                              </span>
-                            </Text>
-                          </div>
-                          <div className="flex flex-col">
-                            <Img
-                              className=" ah-[130px] md:h-auto sm:mt-0 mt-[5px] object-cover w-[130px]"
-                              src="images/img_45.png"
-                              alt="FortyFive"
-                            />
-                            <Text
-                              className=" bottom-[6%] right-[26%] text-blue-800 text-center text-xs"
-                              size="txtInterRegular12Blue800"
-                            >
-                              <span className="text-blue-800 font-inter font-normal">
-                                <>
-                                  55,8% dos
-                                  <br />
-                                  brasileiros têm <br />
-                                  acesso a coleta de
-                                  <br />
-                                  esgoto. <br />
-                                  <br />
-                                </>
-                              </span>
-                              <span className="text-blue-800 font-inter font-normal italic">
-                                <>
-                                  (FONTE: SNIS 2021)
-                                  <br />
-                                </>
-                              </span>
-                            </Text>
-                          </div>
-                          <div className="flex flex-col items-center text-center">
-                            <Img
-                              className="  ah-[122px] ah-[104px] md:h-auto sm:mt-0 mt-[13px] object-cover w-[104px]"
-                              src="images/img_designsemnome_104x104.png"
-                              alt="designsemnome"
-                            />
-                            <Text
-                              className="absolute bottom-[0] right-[3%] text-blue-800 text-center text-xs"
-                              size="txtInterRegular12Blue800"
-                            >
-                              <span className="text-blue-800 font-inter font-normal">
-                                <>
-                                  O Brasil investiu mais
-                                  <br />
-                                  de 17,3 bilhões em <br />
-                                  saneamento básico
-                                  <br />
-                                  em 2021.
-                                  <br />
-                                  <br />
-                                </>
-                              </span>
-                              <span className="text-blue-800 font-inter font-normal italic">
-                                <>
-                                  (FONTE: P. SANEAMENTO BRASIL
-                                  <br />
-                                  2021)
-                                  <br />
-                                </>
-                              </span>
-                            </Text>
-                          </div>
-                        </div>
-                      </React.Fragment>
-                    ))}
-                  />
                 </div>
+                <Slider
+                  activeIndex={sliderState}
+                  responsive={{
+                    0: { items: 1 },
+                    550: { items: 1 },
+                    1050: { items: 1 },
+                  }}
+                  onSlideChanged={(e) => {
+                    setsliderState(e?.item);
+                  }}
+                  ref={sliderRef}
+                  className="absolute bg-gray-100 inset-[0] justify-center m-auto w-full"
+                  items={[...Array(3)].map(() => (
+                    <React.Fragment key={Math.random()}>
+                      <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between max-h-lg mx-10">
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[122px] md:h-auto object-cover w-[122px]"
+                            src="images/img_17.png"
+                            alt="Seventeen"
+                          />
+                          <Text
+                            className="absolute bottom-[6%] left-[6%] text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                Quase 100 milhões de
+                                <br />
+                                brasileiros (44,2%) não
+                                <br />
+                                tem acesso a coleta de
+                                <br />
+                                esgosto.
+                                <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: SNIS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[122px] md:h-auto object-cover w-[94px]"
+                            src="images/img_224.png"
+                            alt="TwoHundredTwentyFour"
+                          />
+                          <Text
+                            className="absolute  bottom-[6%] left-1/4 text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                84,2% dos <br />
+                                brasileiros têm
+                                <br />
+                                acesso a água <br />
+                                tratatada.
+                                <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: SNIS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[122px] md:h-auto object-cover w-[122px]"
+                            src="images/img_31.png"
+                            alt="ThirtyOne"
+                          />
+                          <Text
+                            className="absolute  bottom-[6%] inset-x-[0] mx-auto text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                O Brasil teve mais de
+                                <br />
+                                130 miil internações em
+                                <br />
+                                2021 por doenças de
+                                <br />
+                                veiculação hídrica. <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: DATASUS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col">
+                          <Img
+                            className=" ah-[130px] md:h-auto sm:mt-0 mt-[5px] object-cover w-[130px]"
+                            src="images/img_45.png"
+                            alt="FortyFive"
+                          />
+                          <Text
+                            className=" bottom-[6%] right-[26%] text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                55,8% dos
+                                <br />
+                                brasileiros têm <br />
+                                acesso a coleta de
+                                <br />
+                                esgoto. <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: SNIS 2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                        <div className="flex flex-col items-center text-center">
+                          <Img
+                            className="  ah-[122px] ah-[104px] md:h-auto sm:mt-0 mt-[13px] object-cover w-[104px]"
+                            src="images/img_designsemnome_104x104.png"
+                            alt="designsemnome"
+                          />
+                          <Text
+                            className="absolute bottom-[0] right-[3%] text-blue-800 text-center text-xs"
+                            size="txtInterRegular12Blue800"
+                          >
+                            <span className="text-blue-800 font-inter font-normal">
+                              <>
+                                O Brasil investiu mais
+                                <br />
+                                de 17,3 bilhões em <br />
+                                saneamento básico
+                                <br />
+                                em 2021.
+                                <br />
+                                <br />
+                              </>
+                            </span>
+                            <span className="text-blue-800 font-inter font-normal italic">
+                              <>
+                                (FONTE: P. SANEAMENTO BRASIL
+                                <br />
+                                2021)
+                                <br />
+                              </>
+                            </span>
+                          </Text>
+                        </div>
+                      </div>
+                    </React.Fragment>
+                  ))}
+                />
               </div>
             </div>
           </div>
-          <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
         </div>
+        <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
       </div>
     </>
   );
