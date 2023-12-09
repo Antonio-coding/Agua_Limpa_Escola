@@ -4,18 +4,12 @@ import { Button, Img, Line, List, Radio, SelectBox, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 
-const depoimentosOptionsList = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
-];
-
 const SobrensPageThreePage: React.FC = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
-        <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
-        <div className="left-[83%]">
+        <Header className="flex flex-col items-center justify-center md:px-5 w-full" />
+        <div className="left-[20%]">
           <div className="flex flex-col items-start mt-[126px] md:px-10 px-28 sm:px-5 w-full">
             <Text
               className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
@@ -49,7 +43,7 @@ const SobrensPageThreePage: React.FC = () => {
                   className="flex flex-col gap-9 items-center w-[99%]"
                   orientation="vertical"
                 >
-                  <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
+                  <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
                       src="images/img_71.png"
@@ -91,7 +85,7 @@ const SobrensPageThreePage: React.FC = () => {
                     </div>
                   </div>
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
-                  <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
+                  <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
                       src="images/img_101.png"
@@ -106,9 +100,9 @@ const SobrensPageThreePage: React.FC = () => {
                       </Text>
                       <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
                         <Img
-                         className="h-8 md:h-auto object-cover w-8"
-                         src="images/img_121.png"
-                         alt="OneHundredTwentyOne"
+                          className="h-8 md:h-auto object-cover w-8"
+                          src="images/img_121.png"
+                          alt="OneHundredTwentyOne"
                         />
                         <Text
                           className="mt-[11px] text-[15px] text-black-900"
@@ -131,16 +125,15 @@ const SobrensPageThreePage: React.FC = () => {
                         </Text>
                       </div>
                     </div>
-                    
                   </div>
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
-                  <div className="flex my-0 relative w-full">
+                  <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] my-auto object-cover w-[166px]"
                       src="images/img_111.png"
                       alt="OneHundredOne"
                     />
-                    
+
                     <div className="flex flex-col items-start justify-start mb-[7px] ml-[undefinedpx] mr-[61px] mt-auto w-[66%] z-[1]">
                       <Text
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
@@ -177,11 +170,6 @@ const SobrensPageThreePage: React.FC = () => {
                     </div>
                   </div>
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
-                </List>
-                <List
-                  className="flex flex-col gap-[39px] items-center pt-[11px] px-[11px] w-[99%]"
-                  orientation="vertical"
-                >
                   <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
@@ -224,7 +212,7 @@ const SobrensPageThreePage: React.FC = () => {
                     </div>
                   </div>
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
-                  <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
+                  <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
                       src="images/img_91.png"
@@ -239,9 +227,9 @@ const SobrensPageThreePage: React.FC = () => {
                       </Text>
                       <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
                         <Img
-                         className="h-8 md:h-auto object-cover w-8"
-                         src="images/img_121.png"
-                         alt="OneHundredTwentyOne"
+                          className="h-8 md:h-auto object-cover w-8"
+                          src="images/img_121.png"
+                          alt="OneHundredTwentyOne"
                         />
                         <Text
                           className="mt-[11px] text-[15px] text-black-900"
@@ -264,12 +252,7 @@ const SobrensPageThreePage: React.FC = () => {
                         </Text>
                       </div>
                     </div>
-                    
                   </div>
-                 
-                 
-                 
-                  
                 </List>
               </div>
             </div>
