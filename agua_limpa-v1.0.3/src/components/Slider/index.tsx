@@ -27,7 +27,7 @@ const Slider = React.forwardRef<AliceCarousel, SliderComponentProps>(
       if (props?.activeIndex + magnifiedIndex >= items?.length) {
         return index !== props?.activeIndex + magnifiedIndex - items?.length;
       } else {
-        return index !== props.activeIndex + magnifiedIndex;
+        return index !== props?.activeIndex + magnifiedIndex;
       }
     };
 
