@@ -6,12 +6,6 @@ import { Button, Img, Input, Radio, SelectBox, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 
-const depoimentosOptionsList = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
-];
-
 const MapaPageFivePage: React.FC = () => {
   const navigate = useNavigate();
 
@@ -19,7 +13,8 @@ const MapaPageFivePage: React.FC = () => {
     <>
       <div className="bg-gray-100 flex flex-col font-inter items-center justify-start mx-auto w-full">
         <div className="flex flex-col justify-start w-full">
-        <Header className="flex flex-col items-center justify-center md:px-5 w-full" />          <div className="flex flex-row gap-[13px] items-center justify-start md:ml-[0] ml-[169px] mt-[164px] md:px-5 w-[19%] md:w-full">
+          <Header className="flex flex-col items-center justify-center md:px-5 w-full" />
+          <div className="flex flex-row gap-[13px] items-center justify-start md:ml-[0] ml-[169px] mt-[164px] md:px-5 w-[19%] md:w-full">
             <Img
               className="h-[71px] md:h-auto object-cover w-[43%]"
               src="images/img_designsemnome_71x104.png"

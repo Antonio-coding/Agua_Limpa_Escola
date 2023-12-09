@@ -37,7 +37,7 @@ const HomePageOnePage: React.FC = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
-        <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
+        <Header className="flex flex-col items-center justify-center md:px-5 w-full" />
         <div className="bg-gray-100 flex flex-col items-center justify-start p-[23px] sm:px-5 w-full">
           {/* CABELHAÇO */}
           <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between max-w-[1108px] mx-auto md:px-5 w-full">
@@ -147,7 +147,6 @@ const HomePageOnePage: React.FC = () => {
             </div>
           </div>
         </div>
-
         {/* MAIN */}
         <div className="flex flex-col items-center justify-start max-w-[1146px] mt-[76px] mx-auto md:px-5 w-full">
           <div className="flex flex-col justify-start w-full">
