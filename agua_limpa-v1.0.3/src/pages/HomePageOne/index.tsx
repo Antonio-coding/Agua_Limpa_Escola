@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
@@ -15,6 +15,7 @@ import {
 import Footer from "components/Footer";
 import Header from "components/Header";
 import HomePageOneColumnoquevocdeseja from "components/HomePageOneColumnoquevocdeseja";
+import Modal from "./../../components/Modal/index";
 
 const HomePageOnePage: React.FC = () => {
   const navigate = useNavigate();
@@ -22,6 +23,15 @@ const HomePageOnePage: React.FC = () => {
   const sliderRef = React.useRef(null);
   const [sliderState, setsliderState] = React.useState(0);
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
@@ -57,9 +67,7 @@ const HomePageOnePage: React.FC = () => {
                 color="gray_200"
                 size="p-[11px]"
                 variant="fill"
-              >
-              
-              </Input>
+              ></Input>
               <Button
                 className="common-pointer cursor-pointer flex items-center justify-center min-w-[462px] sm:min-w-full rounded-[7px]"
                 onClick={() => navigate("/buscarpagefour")}
@@ -76,6 +84,8 @@ const HomePageOnePage: React.FC = () => {
               >
                 <div className="text-[15px] text-left">buscar escola</div>
               </Button>
+              <button onClick={openModal}>Abrir Modal</button>
+              <Modal isOpen={isModalOpen} onRequestClose={closeModal} />
             </div>
             <div className="h-[431px] relative w-[43%] md:w-full">
               <Img
