@@ -120,7 +120,6 @@ client.connect((err) => {
     GROUP BY tipo_agua;
   `;
 
-
   
   // Executar consultas
   client.query(queryText7, (err, result) => {
