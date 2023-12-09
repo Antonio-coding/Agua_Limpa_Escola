@@ -185,7 +185,7 @@ const SobrensPageThreePage: React.FC = () => {
                   <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
-                      src="images/img_111.png"
+                      src="images/img_85.png"
                       alt="OneHundredEleven"
                     />
                     <div className="flex flex-col items-start justify-start w-[71%] md:w-full">
@@ -193,7 +193,7 @@ const SobrensPageThreePage: React.FC = () => {
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
                         size="txtInterSemiBold28"
                       >
-                        Jefferson Marques
+                        Mirla Vieira
                       </Text>
                       <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
                         <Img
@@ -205,7 +205,7 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mt-[11px] text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://github.com/Antonio-coding
+                          https://github.com/Mirla-coding
                         </Text>
                       </div>
                       <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
@@ -218,7 +218,7 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mb-0.5 sm:mt-0 mt-2.5 text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
+                          https://www.linkedin.com/in/ant%C3%B4nio-Mirla-b4694524b/
                         </Text>
                       </div>
                     </div>
@@ -227,7 +227,7 @@ const SobrensPageThreePage: React.FC = () => {
                   <div className="flex md:flex-col flex-row gap-[35px] items-start justify-start ml-1.5 mr-[61px] my-0 w-[92%] md:w-full">
                     <Img
                       className="h-[166px] md:h-auto object-cover w-[166px]"
-                      src="images/img_101.png"
+                      src="images/img_91.png"
                       alt="SeventyOne"
                     />
                     <div className="flex flex-col items-start justify-start md:mt-0 mt-[27px] w-[72%] md:w-full">
@@ -235,7 +235,7 @@ const SobrensPageThreePage: React.FC = () => {
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
                         size="txtInterSemiBold28"
                       >
-                        Caio Roberto
+                        Rodrigo Miranda
                       </Text>
                       <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
                         <Img
@@ -247,7 +247,7 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mt-[11px] text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://github.com/caio-coding
+                          https://github.com/Rodrigo-coding
                         </Text>
                       </div>
                       <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
@@ -260,127 +260,16 @@ const SobrensPageThreePage: React.FC = () => {
                           className="mb-0.5 sm:mt-0 mt-2.5 text-[15px] text-black-900"
                           size="txtInterRegular15"
                         >
-                          https://www.linkedin.com/in/ant%C3%B4nio-caio-b4694524b/
+                          https://www.linkedin.com/in/ant%C3%B4nio-Rodrigo-b4694524b/
                         </Text>
                       </div>
                     </div>
                     
                   </div>
-                  <div className="flex md:flex-col flex-row gap-[41px] items-start justify-start w-[95%] md:w-full">
-                    <Img
-                      className="h-[166px] md:h-auto object-cover w-[166px]"
-                      src="images/img_85.png"
-                      alt="EightyFive"
-                    />
-                    <div className="flex flex-col items-start justify-start md:mt-0 mt-[15px] w-[71%] md:w-full">
-                      <Text
-                        className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
-                        size="txtInterSemiBold28"
-                      >
-                        Mirla Vieira
-                      </Text>
-                      <div className="flex flex-row gap-[9px] items-end justify-start mt-[18px] w-[58%] md:w-full">
-                        <Img
-                          className="h-8 md:h-auto object-cover w-8"
-                          src="images/img_121.png"
-                          alt="OneHundredTwentyThree"
-                        />
-                        <div className="h-[19px] md:h-[30px] mt-[11px] relative w-[86%]">
-                          <Text
-                            className="m-auto text-[15px] text-black-900"
-                            size="txtInterRegular15"
-                          >
-                            https://github.com/Antonio-coding
-                          </Text>
-                          <Text
-                            className="absolute h-full inset-[0] justify-center m-auto text-[15px] text-black-900 w-max"
-                            size="txtInterRegular15"
-                          >
-                            https://github.com/Antonio-coding
-                          </Text>
-                        </div>
-                      </div>
-                      <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-between mt-2 w-full">
-                        <Img
-                          className="h-8 md:h-auto object-cover w-8"
-                          src="images/img_131.png"
-                          alt="OneHundredThirtyThree"
-                        />
-                        <div className="h-[19px] sm:h-[21px] md:h-[31px] mb-0.5 sm:mt-0 mt-2.5 relative w-[92%] sm:w-full">
-                          <Text
-                            className="m-auto text-[15px] text-black-900"
-                            size="txtInterRegular15"
-                          >
-                            https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
-                          </Text>
-                          <Text
-                            className="absolute h-full inset-[0] justify-center m-auto text-[15px] text-black-900 w-max"
-                            size="txtInterRegular15"
-                          >
-                            https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
-                          </Text>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <Line className="self-center h-px bg-blue_gray-100 w-full" />
-                  <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
-                    <Img
-                      className="h-[166px] md:h-auto object-cover w-[166px]"
-                      src="images/img_91.png"
-                      alt="NinetyOne"
-                    />
-                    <div className="flex flex-col items-start justify-start w-[71%] md:w-full">
-                      <Text
-                        className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
-                        size="txtInterSemiBold28"
-                      >
-                        Rodrigo Miranda
-                      </Text>
-                      <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
-                        <Img
-                          className="h-8 md:h-auto object-cover w-8"
-                          src="images/img_121.png"
-                          alt="OneHundredTwentyFour"
-                        />
-                        <div className="h-[19px] md:h-[30px] mt-[11px] relative w-[86%]">
-                          <Text
-                            className="m-auto text-[15px] text-black-900"
-                            size="txtInterRegular15"
-                          >
-                            https://github.com/Antonio-coding
-                          </Text>
-                          <Text
-                            className="absolute h-full inset-[0] justify-center m-auto text-[15px] text-black-900 w-max"
-                            size="txtInterRegular15"
-                          >
-                            https://github.com/Antonio-coding
-                          </Text>
-                        </div>
-                      </div>
-                      <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-between mt-2 w-full">
-                        <Img
-                          className="h-8 md:h-auto object-cover w-8"
-                          src="images/img_131.png"
-                          alt="OneHundredThirtyFour"
-                        />
-                        <div className="h-[19px] sm:h-[21px] md:h-[31px] mb-0.5 sm:mt-0 mt-2.5 relative w-[92%] sm:w-full">
-                          <Text
-                            className="m-auto text-[15px] text-black-900"
-                            size="txtInterRegular15"
-                          >
-                            https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
-                          </Text>
-                          <Text
-                            className="absolute h-full inset-[0] justify-center m-auto text-[15px] text-black-900 w-max"
-                            size="txtInterRegular15"
-                          >
-                            https://www.linkedin.com/in/ant%C3%B4nio-thiago-b4694524b/
-                          </Text>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                 
+                 
+                 
+                  
                 </List>
               </div>
             </div>
