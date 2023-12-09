@@ -62,7 +62,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onRequestClose }) => {
                   <button
                     className="absolute h-[30px] top-[3px] left-[33px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-[#2d73b5] text-[20px] tracking-[0] leading-[29.7px] whitespace-nowrap  cursor-pointer"
                     onClick={() =>
-                      (window.location.href = "/graficospage")
+                      (window.location.href = "/caminho-da-pagina-do-grafico")
                     }
                   >
                     Exibir Gráfico
