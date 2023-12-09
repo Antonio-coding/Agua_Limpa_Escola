@@ -136,7 +136,7 @@ const SobrensPageThreePage: React.FC = () => {
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
                   <div className="flex my-0 relative w-full">
                     <Img
-                      className="h-[166px] my-auto object-cover w-[166px]"
+                      className="h-[166px] my-auto m-5 object-cover w-[166px]"
                       src="images/img_111.png"
                       alt="OneHundredOne"
                     />
@@ -148,7 +148,7 @@ const SobrensPageThreePage: React.FC = () => {
                       >
                         Jefferson Marques
                       </Text>
-                      <div className="flex flex-row gap-[9px] items-end justify-start mt-[18px] w-[58%] md:w-full">
+                      <div className="flex flex-row gap-[9px] items-end justify-start m-15 mt-[18px] w-[58%] md:w-full">
                         <Img
                           className="h-8 md:h-auto object-cover w-8"
                           src="images/img_121.png"
@@ -161,7 +161,7 @@ const SobrensPageThreePage: React.FC = () => {
                           https://github.com/Jefferson-coding
                         </Text>
                       </div>
-                      <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
+                      <div className="flex sm:flex-col flex-row gap-[9px]  items-end justify-start mt-2 w-full">
                         <Img
                           className="h-8 md:h-auto object-cover w-8"
                           src="images/img_131.png"
@@ -266,10 +266,6 @@ const SobrensPageThreePage: React.FC = () => {
                     </div>
                     
                   </div>
-                 
-                 
-                 
-                  
                 </List>
               </div>
             </div>
