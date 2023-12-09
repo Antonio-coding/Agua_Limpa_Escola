@@ -9,7 +9,7 @@ const SobrensPageThreePage: React.FC = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
         <Header className="flex flex-col items-center justify-center md:px-5 w-full" />
-        <div className="left-[20%]">
+        <div className="left-[500px]">
           <div className="flex flex-col items-start mt-[126px] md:px-10 px-28 sm:px-5 w-full">
             <Text
               className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
@@ -17,23 +17,24 @@ const SobrensPageThreePage: React.FC = () => {
             >
               Sobre nós
             </Text>
+            <br />
+            <Text
+              className="leading-[29.00px] text-start m-10 mt-[5px] text-black-900 text-sm w-full sm:w-full"
+              size="txtInterRegular20"
+            >
+              Acreditar que dados são essenciais no processo de transformação da
+              educação brasileira é o que tem movido o Água Limpa. Nós queremos
+              estar presente no dia a dia das instituições e pessoas
+              comprometidas com a melhoria da educação básica, e, por isso,
+              buscamos sempre conhecer e suprir as necessidades das escolas e
+              redes educação com relação ao uso de dados e indicadores
+              educacionais. O Água Limpa está criando conexões mais fortes com
+              cada um de seus públicos, oferecendo mais dados, mais informações,
+              mais conhecimento, aprendendo e crescendo junto com ele, criando
+              uma rede de pessoas interessadas, engajadas e empoderadas para
+              transformar a educação do Brasil.{" "}
+            </Text>
           </div>
-          <Text
-            className="leading-[29.00px] text-start m-10 mt-[3px] text-black-900 text-sm w-[83%] sm:w-full"
-            size="txtInterRegular14"
-          >
-            Acreditar que dados são essenciais no processo de transformação da
-            educação brasileira é o que tem movido o Água Limpa. Nós queremos
-            estar presente no dia a dia das instituições e pessoas comprometidas
-            com a melhoria da educação básica, e, por isso, buscamos sempre
-            conhecer e suprir as necessidades das escolas e redes educação com
-            relação ao uso de dados e indicadores educacionais. O Água Limpa
-            está criando conexões mais fortes com cada um de seus públicos,
-            oferecendo mais dados, mais informações, mais conhecimento,
-            aprendendo e crescendo junto com ele, criando uma rede de pessoas
-            interessadas, engajadas e empoderadas para transformar a educação do
-            Brasil.{" "}
-          </Text>
         </div>
         <div className="flex flex-col items-start mt-[60px] md:px-10 sm:px-5 px-[104px] w-full">
           <div className="flex flex-col items-center justify-start w-[73%] md:w-full">
@@ -129,19 +130,18 @@ const SobrensPageThreePage: React.FC = () => {
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
                   <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img
-                      className="h-[166px] my-auto m-5 object-cover w-[166px]"
+                      className="h-[166px] md:h-auto object-cover w-[166px]"
                       src="images/img_111.png"
-                      alt="OneHundredOne"
+                      alt="SeventyOne"
                     />
-
-                    <div className="flex flex-col items-start justify-start mb-[7px] ml-[undefinedpx] mr-[61px] mt-auto w-[66%] z-[1]">
+                    <div className="flex flex-col items-start justify-start md:mt-0 mt-[27px] w-[72%] md:w-full">
                       <Text
                         className="sm:text-2xl md:text-[26px] text-[28px] text-blue-800"
                         size="txtInterSemiBold28"
                       >
                         Jefferson Marques
                       </Text>
-                      <div className="flex flex-row gap-[9px] items-end justify-start m-15 mt-[18px] w-[58%] md:w-full">
+                      <div className="flex flex-row gap-[9px] items-end justify-start mt-[15px] w-[58%] md:w-full">
                         <Img
                           className="h-8 md:h-auto object-cover w-8"
                           src="images/img_121.png"
@@ -154,7 +154,7 @@ const SobrensPageThreePage: React.FC = () => {
                           https://github.com/Jefferson-coding
                         </Text>
                       </div>
-                      <div className="flex sm:flex-col flex-row gap-[9px]  items-end justify-start mt-2 w-full">
+                      <div className="flex sm:flex-col flex-row gap-[9px] items-end justify-start mt-2 w-full">
                         <Img
                           className="h-8 md:h-auto object-cover w-8"
                           src="images/img_131.png"
@@ -169,6 +169,7 @@ const SobrensPageThreePage: React.FC = () => {
                       </div>
                     </div>
                   </div>
+
                   <Line className="self-center h-px bg-blue_gray-100 w-full" />
                   <div className="flex md:flex-col flex-row gap-[41px] items-center justify-start w-[95%] md:w-full">
                     <Img

@@ -2,7 +2,7 @@ import React from "react";
 
 // Estilo para o círculo giratório
 const Spinner = () => (
-  <div className="inline-block w-12 h-12 border-4 border-t-4 border-blue-500 border-solid rounded-full animate-spin"></div>
+  <div className="inline-block w-12 h-12 border-6 border-t-8 border-blue-800 border-solid rounded-full animate-spin"></div>
 );
 
 // Estilo para o texto abaixo do círculo
