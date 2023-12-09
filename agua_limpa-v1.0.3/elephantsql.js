@@ -123,10 +123,11 @@ client.connect((err) => {
 
   
   // Executar consultas
-  client.query(queryText7, (err, result) => {
+  client.query(queryText1, (err, result) => {
     if (err) {
       console.error('Erro na consulta 1:', err);
     } else {
+      
       console.log(result.rows);
     }      
       // Finalizar conexão após a última consulta
