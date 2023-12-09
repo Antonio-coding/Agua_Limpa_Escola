@@ -14,7 +14,7 @@ const spinAnimation = keyframes`
 // Estilo para o círculo giratório
 const Spinner = styled.div`
   display: inline-block;
-  width: 40px;
+  width: 45px;
   height: 40px;
   border: 6px solid #2d73b5;
   border-radius: 50%;
@@ -30,13 +30,12 @@ const Text = styled.div`
 
 // Componente de Fallback
 const LoadingFallback = () => (
-    <div className="flex items-center justify-center h-screen">
-      <div className="flex flex-col items-center">
-        <Spinner />
-        <Text>Loading...</Text>
-      </div>
+  <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col items-center">
+      <Spinner />
+      <Text>Loading...</Text>
     </div>
-  );
-  
+  </div>
+);
 
 export default LoadingFallback;

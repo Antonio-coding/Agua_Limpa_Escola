@@ -19,8 +19,7 @@ const MapaPageFivePage: React.FC = () => {
     <>
       <div className="bg-gray-100 flex flex-col font-inter items-center justify-start mx-auto w-full">
         <div className="flex flex-col justify-start w-full">
-          <Header className="bg-white-A700 flex md:flex-col gap-[43.85px] h-[75px] md:h-auto items-center justify-center md:px-5 px-[100.23px] py-[11.14px] shadow-bs w-full" />
-          <div className="flex flex-row gap-[13px] items-center justify-start md:ml-[0] ml-[169px] mt-[164px] md:px-5 w-[19%] md:w-full">
+        <Header className="flex flex-col items-center justify-center md:px-5 w-full" />          <div className="flex flex-row gap-[13px] items-center justify-start md:ml-[0] ml-[169px] mt-[164px] md:px-5 w-[19%] md:w-full">
             <Img
               className="h-[71px] md:h-auto object-cover w-[43%]"
               src="images/img_designsemnome_71x104.png"
