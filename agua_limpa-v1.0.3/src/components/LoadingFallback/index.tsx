@@ -1,39 +1,19 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
-
-// Defina a animação de rotação
-const spinAnimation = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
 
 // Estilo para o círculo giratório
-const Spinner = styled.div`
-  display: inline-block;
-  width: 45px;
-  height: 40px;
-  border: 6px solid #2d73b5;
-  border-radius: 50%;
-  border-top: 4px solid #ffffff;
-  animation: ${spinAnimation} 1s linear infinite;
-`;
+const Spinner = () => (
+  <div className="inline-block w-12 h-12 border-4 border-t-4 border-blue-500 border-solid rounded-full animate-spin"></div>
+);
 
 // Estilo para o texto abaixo do círculo
-const Text = styled.div`
-  margin-top: 10px;
-  font-weight: bold;
-`;
+const Text = () => <div className="mt-4 font-bold">Loading...</div>;
 
 // Componente de Fallback
 const LoadingFallback = () => (
   <div className="flex items-center justify-center h-screen">
     <div className="flex flex-col items-center">
       <Spinner />
-      <Text>Loading...</Text>
+      <Text />
     </div>
   </div>
 );

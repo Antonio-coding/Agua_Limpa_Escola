@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
@@ -16,11 +16,12 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import HomePageOneColumnoquevocdeseja from "components/HomePageOneColumnoquevocdeseja";
 import Modal from "./../../components/Modal/index";
+import AliceCarousel from "react-alice-carousel";
 
 const HomePageOnePage: React.FC = () => {
   const navigate = useNavigate();
 
-  const sliderRef = React.useRef(null);
+  const sliderRef = useRef<AliceCarousel>(null);
   const [sliderState, setsliderState] = React.useState(0);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -490,20 +491,20 @@ const HomePageOnePage: React.FC = () => {
             <div className="md:h-[272px] h-[289px] mx-auto relative w-[95%] md:w-full">
               <div className="absolute h-[272px] inset-x-[0] mx-auto top-[0] w-full">
                 <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[12%] w-full">
-                  <div className="flex flex-row md:gap-10 items-center justify-between w-full">
-                    <Img
-                      className="cursor-pointer h-[41px] w-[41px]"
-                      src="images/img_arrowleft_blue_800_41x41.svg"
-                      alt="arrowleft_One"
-                      onClick={() => sliderRef.current?.slidePrev?.()}
-                    />
-                    <Img
-                      className="cursor-pointer h-10 w-10"
-                      src="images/img_arrowright.svg"
-                      alt="arrowright"
-                      onClick={() => sliderRef.current?.slideNext?.()}
-                    />
-                  </div>
+                <div className="flex flex-row md:gap-10 items-center justify-between w-full">
+  <Img
+    className="cursor-pointer h-[41px] w-[41px]"
+    src="images/img_arrowleft_blue_800_41x41.svg"
+    alt="arrowleft_One"
+    onClick={() => sliderRef.current?.slidePrev?.() as any} // Utilize 'as any' para assertiva de tipo
+  />
+  <Img
+    className="cursor-pointer h-10 w-10"
+    src="images/img_arrowright.svg"
+    alt="arrowright"
+    onClick={() => sliderRef.current?.slideNext?.() as any} // Utilize 'as any' para assertiva de tipo
+  />
+</div>
                 </div>
                 <Slider
                   activeIndex={sliderState}
