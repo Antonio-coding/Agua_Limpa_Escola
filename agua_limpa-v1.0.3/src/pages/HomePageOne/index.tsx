@@ -2,11 +2,19 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Line, Radio, SelectBox, Slider, Text } from "components";
+import {
+  Button,
+  Img,
+  Input,
+  Line,
+  Radio,
+  SelectBox,
+  Slider,
+  Text,
+} from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import HomePageOneColumnoquevocdeseja from "components/HomePageOneColumnoquevocdeseja";
-
 
 const HomePageOnePage: React.FC = () => {
   const navigate = useNavigate();
@@ -31,9 +39,27 @@ const HomePageOnePage: React.FC = () => {
                   <br />
                   <br />
                   Transforme a educação através da água.{" "}
-                  Transforme a educação através da água.{" "}
                 </Text>
               </Text>
+              <Input
+                name="rectangle189"
+                placeholder="Buscar escola"
+                className="p-0 w-full text-[15px] text-left"
+                wrapClassName="common-pointer cursor-pointer flex items-center justify-center min-w-[462px] sm:min-w-full rounded-[7px] border border-black-900 border-solid flex h-[19px] w-full"
+                leftIcon={
+                  <Img
+                    className="h-6 mr-[11px]"
+                    src="images/img_rewind.svg"
+                    alt="rewind"
+                    onClick={() => navigate("/buscarpagefour")}
+                  />
+                }
+                color="gray_200"
+                size="p-[11px]"
+                variant="fill"
+              >
+              
+              </Input>
               <Button
                 className="common-pointer cursor-pointer flex items-center justify-center min-w-[462px] sm:min-w-full rounded-[7px]"
                 onClick={() => navigate("/buscarpagefour")}
@@ -109,7 +135,7 @@ const HomePageOnePage: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         {/* MAIN */}
         <div className="flex flex-col items-center justify-start max-w-[1146px] mt-[76px] mx-auto md:px-5 w-full">
           <div className="flex flex-col justify-start w-full">
@@ -141,306 +167,304 @@ const HomePageOnePage: React.FC = () => {
             {/* MAIN-CONTENT */}
             <div className="h-[622px] sm:h-[624px] md:h-[768px] mt-[18px] relative w-full">
               <div className="flex flex-col items-center justify-start m-auto w-full h-full">
-                  <div className="flex flex-row items-center justify-start sm:h-[606px] h-[610px] md:h-[750px] m-auto w-full">
-                    {/* MAIN-CONTENT-LEFT */}
-                    <div className="  md:gap-10 h-max inset-[0]   m-auto w-[97%]">
-                      <div className="h-[606px] sm:h-[673px] relative w-[65%] md:w-full">
-                        <div className="absolute h-[606px] sm:h-[673px] inset-[0] justify-center m-auto w-full">
-                          <div className="absolute h-[606px] sm:h-[673px] inset-y-[0] my-auto right-[0] w-[85%] md:w-full">
-                            <div className="absolute h-[606px] sm:h-[673px] inset-[0] justify-center m-auto w-[99%] sm:w-full">
+                <div className="flex flex-row items-center justify-start sm:h-[606px] h-[610px] md:h-[750px] m-auto w-full">
+                  {/* MAIN-CONTENT-LEFT */}
+                  <div className="  md:gap-10 h-max inset-[0]   m-auto w-[97%]">
+                    <div className="h-[606px] sm:h-[673px] relative w-[65%] md:w-full">
+                      <div className="absolute h-[606px] sm:h-[673px] inset-[0] justify-center m-auto w-full">
+                        <div className="absolute h-[606px] sm:h-[673px] inset-y-[0] my-auto right-[0] w-[85%] md:w-full">
+                          <div className="absolute h-[606px] sm:h-[673px] inset-[0] justify-center m-auto w-[99%] sm:w-full">
+                            <div className="h-[606px] sm:h-[673px] m-auto w-full">
                               <div className="h-[606px] sm:h-[673px] m-auto w-full">
                                 <div className="h-[606px] sm:h-[673px] m-auto w-full">
-                                  <div className="h-[606px] sm:h-[673px] m-auto w-full">
-                                    <div className="flex sm:flex-col flex-row gap-5 h-full items-start justify-between m-auto w-full">
-                                      <div className="flex sm:flex-1 flex-col md:gap-10 gap-[97px] justify-start w-[22%] sm:w-full">
-                                        <div
-                                          className="bg-cover bg-no-repeat flex flex-col h-[98px] items-center justify-start md:ml-[0] ml-[31px] w-3/4 md:w-full"
-                                          style={{
-                                            backgroundImage:
-                                              "url('images/img_group.svg')",
-                                          }}
-                                        >
-                                          <Img
-                                            className="h-[98px]"
-                                            src="images/img_television.svg"
-                                            alt="television"
-                                          />
-                                        </div>
+                                  <div className="flex sm:flex-col flex-row gap-5 h-full items-start justify-between m-auto w-full">
+                                    <div className="flex sm:flex-1 flex-col md:gap-10 gap-[97px] justify-start w-[22%] sm:w-full">
+                                      <div
+                                        className="bg-cover bg-no-repeat flex flex-col h-[98px] items-center justify-start md:ml-[0] ml-[31px] w-3/4 md:w-full"
+                                        style={{
+                                          backgroundImage:
+                                            "url('images/img_group.svg')",
+                                        }}
+                                      >
                                         <Img
-                                          className="h-[85px] mr-[15px]"
-                                          src="images/img_group_white_a700_85x110.svg"
-                                          alt="group"
+                                          className="h-[98px]"
+                                          src="images/img_television.svg"
+                                          alt="television"
                                         />
                                       </div>
-                                      <div className="sm:h-[373px] md:h-[437px] h-[541px] sm:mt-0 mt-16 relative w-[76%] sm:w-full">
-                                        <div className="absolute flex flex-col h-max inset-y-[0] items-center justify-start left-[13%] my-auto w-[62%]">
-                                          <div className="flex flex-col justify-start w-full">
-                                            <div className="flex flex-row gap-[118px] items-start justify-end md:ml-[0] ml-[49px] w-[82%] md:w-full">
-                                              <Img
-                                                className="h-[122px]"
-                                                src="images/img_group_white_a700_122x77.svg"
-                                                alt="group_One"
-                                              />
-                                              <Img
-                                                className="h-[30px] mt-16"
-                                                src="images/img_television_white_a700.svg"
-                                                alt="television_One"
-                                              />
-                                            </div>
+                                      <Img
+                                        className="h-[85px] mr-[15px]"
+                                        src="images/img_group_white_a700_85x110.svg"
+                                        alt="group"
+                                      />
+                                    </div>
+                                    <div className="sm:h-[373px] md:h-[437px] h-[541px] sm:mt-0 mt-16 relative w-[76%] sm:w-full">
+                                      <div className="absolute flex flex-col h-max inset-y-[0] items-center justify-start left-[13%] my-auto w-[62%]">
+                                        <div className="flex flex-col justify-start w-full">
+                                          <div className="flex flex-row gap-[118px] items-start justify-end md:ml-[0] ml-[49px] w-[82%] md:w-full">
                                             <Img
-                                              className="h-[87px] ml-2.5 md:ml-[0] mt-[98px]"
-                                              src="images/img_group_white_a700_87x141.svg"
-                                              alt="group_Two"
+                                              className="h-[122px]"
+                                              src="images/img_group_white_a700_122x77.svg"
+                                              alt="group_One"
                                             />
                                             <Img
-                                              className="h-14 mt-2.5"
-                                              src="images/img_television_white_a700_56x85.svg"
-                                              alt="television_Two"
+                                              className="h-[30px] mt-16"
+                                              src="images/img_television_white_a700.svg"
+                                              alt="television_One"
                                             />
                                           </div>
+                                          <Img
+                                            className="h-[87px] ml-2.5 md:ml-[0] mt-[98px]"
+                                            src="images/img_group_white_a700_87x141.svg"
+                                            alt="group_Two"
+                                          />
+                                          <Img
+                                            className="h-14 mt-2.5"
+                                            src="images/img_television_white_a700_56x85.svg"
+                                            alt="television_Two"
+                                          />
                                         </div>
-                                        <Img
-                                          className="absolute bottom-[0] h-[114px] left-[0]"
-                                          src="images/img_group_white_a700_114x124.svg"
-                                          alt="group_Three"
-                                        />
-                                        <Img
-                                          className="absolute h-[116px] right-[0] top-[0]"
-                                          src="images/img_group_white_a700_116x145.svg"
-                                          alt="group_Four"
-                                        />
-                                        <Img
-                                          className="absolute bottom-[32%] h-10 right-[41%]"
-                                          src="images/img_television_white_a700_40x61.svg"
-                                          alt="television_Three"
-                                        />
-                                        <Img
-                                          className="absolute h-[120px] inset-x-[0] mx-auto top-[10%]"
-                                          src="images/img_group_white_a700_120x87.svg"
-                                          alt="group_Five"
-                                        />
                                       </div>
-                                    </div>
-                                    <Img
-                                      className="absolute h-[33px] right-[14%] top-[30%]"
-                                      src="images/img_group_red_700.svg"
-                                      alt="group_Six"
-                                    />
-                                    <Img
-                                      className="absolute bottom-[20%] h-[67px] left-[33%]"
-                                      src="images/img_group_white_a700_67x103.svg"
-                                      alt="group_Seven"
-                                    />
-                                  </div>
-                                  <div className="absolute flex flex-col md:gap-10 gap-[66px] justify-start right-[14%] top-[6%] w-[65%]">
-                                    <div className="flex flex-row items-start justify-between w-full">
                                       <Img
-                                        className="h-[184px]"
-                                        src="images/img_group_white_a700_184x202.svg"
-                                        alt="group_Eight"
+                                        className="absolute bottom-[0] h-[114px] left-[0]"
+                                        src="images/img_group_white_a700_114x124.svg"
+                                        alt="group_Three"
                                       />
                                       <Img
-                                        className="h-[33px] mt-[127px]"
-                                        src="images/img_close.svg"
-                                        alt="close"
+                                        className="absolute h-[116px] right-[0] top-[0]"
+                                        src="images/img_group_white_a700_116x145.svg"
+                                        alt="group_Four"
+                                      />
+                                      <Img
+                                        className="absolute bottom-[32%] h-10 right-[41%]"
+                                        src="images/img_television_white_a700_40x61.svg"
+                                        alt="television_Three"
+                                      />
+                                      <Img
+                                        className="absolute h-[120px] inset-x-[0] mx-auto top-[10%]"
+                                        src="images/img_group_white_a700_120x87.svg"
+                                        alt="group_Five"
                                       />
                                     </div>
-                                    <Img
-                                      className="h-[134px] md:ml-[0] ml-[125px]"
-                                      src="images/img_group_white_a700_134x175.svg"
-                                      alt="group_Nine"
-                                    />
                                   </div>
+                                  <Img
+                                    className="absolute h-[33px] right-[14%] top-[30%]"
+                                    src="images/img_group_red_700.svg"
+                                    alt="group_Six"
+                                  />
+                                  <Img
+                                    className="absolute bottom-[20%] h-[67px] left-[33%]"
+                                    src="images/img_group_white_a700_67x103.svg"
+                                    alt="group_Seven"
+                                  />
                                 </div>
-                                <Img
-                                  className="absolute bottom-[27%] h-[107px] left-[23%]"
-                                  src="images/img_group_white_a700_107x113.svg"
-                                  alt="group_Ten"
-                                />
+                                <div className="absolute flex flex-col md:gap-10 gap-[66px] justify-start right-[14%] top-[6%] w-[65%]">
+                                  <div className="flex flex-row items-start justify-between w-full">
+                                    <Img
+                                      className="h-[184px]"
+                                      src="images/img_group_white_a700_184x202.svg"
+                                      alt="group_Eight"
+                                    />
+                                    <Img
+                                      className="h-[33px] mt-[127px]"
+                                      src="images/img_close.svg"
+                                      alt="close"
+                                    />
+                                  </div>
+                                  <Img
+                                    className="h-[134px] md:ml-[0] ml-[125px]"
+                                    src="images/img_group_white_a700_134x175.svg"
+                                    alt="group_Nine"
+                                  />
+                                </div>
                               </div>
                               <Img
-                                className="absolute h-[161px] left-[14%] top-[31%]"
-                                src="images/img_group_white_a700_161x179.svg"
-                                alt="group_Eleven"
+                                className="absolute bottom-[27%] h-[107px] left-[23%]"
+                                src="images/img_group_white_a700_107x113.svg"
+                                alt="group_Ten"
                               />
                             </div>
                             <Img
-                              className="absolute h-[137px] right-[34%] top-[15%]"
-                              src="images/img_group_white_a700_137x109.svg"
-                              alt="group_Twelve"
-                            />
-                            <div
-                              className="absolute bg-cover bg-no-repeat bottom-[39%] flex flex-col h-[108px] items-end justify-start left-[36%] p-[21px] sm:px-5 w-1/5"
-                              style={{
-                                backgroundImage:
-                                  "url('images/img_group13.svg')",
-                              }}
-                            >
-                              <Img
-                                className="h-2 mb-[31px] mt-6"
-                                src="images/img_television_white_a700_8x15.svg"
-                                alt="television_Four"
-                              />
-                            </div>
-                            <Img
-                              className="absolute bottom-[34%] h-[53px] right-[0]"
-                              src="images/img_group_white_a700_53x204.svg"
-                              alt="group_Thirteen"
-                            />
-                          </div>
-                          <div className="absolute flex flex-col gap-[11px] items-end justify-start right-[19%] top-[19%] w-[21%]">
-                            <Img
-                              className="h-[74px]"
-                              src="images/img_television_white_a700_74x65.svg"
-                              alt="television_Five"
-                            />
-                            <Img
-                              className="h-[148px]"
-                              src="images/img_group_white_a700_148x144.svg"
-                              alt="group_Fourteen"
+                              className="absolute h-[161px] left-[14%] top-[31%]"
+                              src="images/img_group_white_a700_161x179.svg"
+                              alt="group_Eleven"
                             />
                           </div>
                           <Img
-                            className=" ah-[178px] left-[0] top-[7%]"
-                            src="images/img_group_white_a700_178x275.svg"
-                            alt="group_Fifteen"
+                            className="absolute h-[137px] right-[34%] top-[15%]"
+                            src="images/img_group_white_a700_137x109.svg"
+                            alt="group_Twelve"
                           />
-                          <Img
-                            className="absolute h-[83px] inset-x-[0] mx-auto top-[2%]"
-                            src="images/img_globe.svg"
-                            alt="globe"
-                          />
-                          <Img
-                            className="absolute h-6 right-[14%] top-[34%]"
-                            src="images/img_group_white_a700.svg"
-                            alt="group_Sixteen"
-                          />
-                          <Img
-                            className="absolute h-[60px] left-[0] top-[30%]"
-                            src="images/img_group_white_a700_60x116.svg"
-                            alt="group_Seventeen"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    {/* MAIN-CONTENT-RIGHT */}
-                    <div className="  flex flex-col md:gap-10  h-max  items-end  m-auto w-[97%]">
-                      <div className="flex flex-col items-start col-span-1 w-[40%]">
-                        <div className=" h-[164px] right-[0] shadow-bs1 top-[0] w-[164px]  ">
-                          <Img
-                            className="h-[164px] m-auto object-cover w-[164px]"
-                            src="images/img_designsemnome_164x164.png"
-                            alt="designsemnome_Four"
-                          />
-                          <Text
-                            className="absolute bottom-[32%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
-                            size="txtInterSemiBold40"
+                          <div
+                            className="absolute bg-cover bg-no-repeat bottom-[39%] flex flex-col h-[108px] items-end justify-start left-[36%] p-[21px] sm:px-5 w-1/5"
+                            style={{
+                              backgroundImage: "url('images/img_group13.svg')",
+                            }}
                           >
-                            60%
-                          </Text>
-                        </div>
-                        <div className="  flex flex-col  right-[0%]  gap-[16px] w-[220px] h-[104px]">
-                          <Img
-                            className="  leading-[16.00px] right-[0] object-cover  w-8"
-                            src="images/img_designsemnome_34x34.png"
-                            alt="designsemnome_Three"
-                          />
-                          <Text
-                            className="  leading-[16.00px] right-[0] text-2xl md:text-[22px] text-blue-800 text-left sm:text-xl"
-                            size="txtInterSemiBold24"
-                          >
-                            <Text>
-                              Água tratada
-                              <br />
-                              <br />
-                              (rede pública)
-                            </Text>
-                          </Text>
-                        </div>
-                        <Line className="bottom-[0%] bg-blue_gray-100 h-px md:ml-[0] ml-[740px] mr-[60px] mt-3.5 w-[30%]" />
-                      </div>
-                      <div className=" flex flex-col items-start">
-                        <div className="gap-[16px] w-[220px] h-[104px] ">
-                          <div className=" flex flex-row gap-3 items-start justify-start mt-[9px] w-[55%] md:w-full">
-                            <div className="h-[164px] relative w-[164px]">
-                              <Img
-                                className="h-[164px] m-auto object-cover w-[164px]"
-                                src="images/img_designsemnome_1.png"
-                                alt="designsemnome_Five"
-                              />
-                              <Text
-                                className=" absolute bottom-[32%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
-                                size="txtInterSemiBold40"
-                              >
-                                44%
-                              </Text>
-                            </div>
-                          </div>
-                          <div className=" bottom-[17%] flex flex-col items-start justify-start right-[2%] w-[34%]">
-                            <div>
-                              <Img
-                                className="leading-[16.00px] right-[0] object-cover  w-8"
-                                src="images/img_designsemnome_32x32.png"
-                                alt="designsemnome_Six"
-                              />
-                            </div>
-                            <div>
-                              <Text
-                                className=" leading-[16.00px] right-[0] text-2xl md:text-[22px] text-blue-800 sm:text-xl top-[37%]"
-                                size="txtInterSemiBold24"
-                              >
-                                <>
-                                  Esgoto
-                                  <br />
-                                  <br />
-                                  (rede pública)
-                                </>
-                              </Text>
-                            </div>
-                          </div>
-                        </div>
-                        <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[11px] mt-[25px] w-[90%]" />
-                      </div>
-
-                      <div className=" items-start">
-                        <div className=" items-start">
-                          <Text
-                            className="md:ml-[0] ml-[186px] mt-[93px] text-2xl md:text-[22px] text-blue-800 sm:text-xl"
-                            size="txtInterSemiBold24"
-                          >
-                            Água inexistente
-                          </Text>
-                          <Img
-                            className=" bottom-1/4 h-8 object-cover right-[16%] w-8"
-                            src="images/img_designsemnome_2.png"
-                            alt="designsemnome_Eight"
-                          />
-                          <div className="h-[231px] md:h-[NaNpx] mb-[22px] ml-auto mr-[204px] mt-[-NaNpx] w-[231px] z-[1]">
                             <Img
-                              className="h-[231px] m-auto object-cover w-[231px]"
-                              src="images/img_designsemnome_231x231.png"
-                              alt="designsemnome_Seven"
+                              className="h-2 mb-[31px] mt-6"
+                              src="images/img_television_white_a700_8x15.svg"
+                              alt="television_Four"
                             />
-                            <Text
-                              className=" absolute h-max inset-[0] justify-center m-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
-                              size="txtInterSemiBold40"
-                            >
-                              4%
-                            </Text>
                           </div>
+                          <Img
+                            className="absolute bottom-[34%] h-[53px] right-[0]"
+                            src="images/img_group_white_a700_53x204.svg"
+                            alt="group_Thirteen"
+                          />
                         </div>
-                      </div>
-                      <div>
-                        <Text
-                          className="ml-auto mr-[237px] mt-[-2.99px] text-blue-800 text-center text-xs z-[1]"
-                          size="txtInterRegular12"
-                        >
-                          Fonte: Censo, INEP - 2022
-                        </Text>
+                        <div className="absolute flex flex-col gap-[11px] items-end justify-start right-[19%] top-[19%] w-[21%]">
+                          <Img
+                            className="h-[74px]"
+                            src="images/img_television_white_a700_74x65.svg"
+                            alt="television_Five"
+                          />
+                          <Img
+                            className="h-[148px]"
+                            src="images/img_group_white_a700_148x144.svg"
+                            alt="group_Fourteen"
+                          />
+                        </div>
+                        <Img
+                          className=" ah-[178px] left-[0] top-[7%]"
+                          src="images/img_group_white_a700_178x275.svg"
+                          alt="group_Fifteen"
+                        />
+                        <Img
+                          className="absolute h-[83px] inset-x-[0] mx-auto top-[2%]"
+                          src="images/img_globe.svg"
+                          alt="globe"
+                        />
+                        <Img
+                          className="absolute h-6 right-[14%] top-[34%]"
+                          src="images/img_group_white_a700.svg"
+                          alt="group_Sixteen"
+                        />
+                        <Img
+                          className="absolute h-[60px] left-[0] top-[30%]"
+                          src="images/img_group_white_a700_60x116.svg"
+                          alt="group_Seventeen"
+                        />
                       </div>
                     </div>
                   </div>
-               
+                  {/* MAIN-CONTENT-RIGHT */}
+                  <div className="  flex flex-col md:gap-10  h-max  items-end  m-auto w-[97%]">
+                    <div className="flex flex-col items-start col-span-1 w-[40%]">
+                      <div className=" h-[164px] right-[0] shadow-bs1 top-[0] w-[164px]  ">
+                        <Img
+                          className="h-[164px] m-auto object-cover w-[164px]"
+                          src="images/img_designsemnome_164x164.png"
+                          alt="designsemnome_Four"
+                        />
+                        <Text
+                          className="absolute bottom-[32%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
+                          size="txtInterSemiBold40"
+                        >
+                          60%
+                        </Text>
+                      </div>
+                      <div className="  flex flex-col  right-[0%]  gap-[16px] w-[220px] h-[104px]">
+                        <Img
+                          className="  leading-[16.00px] right-[0] object-cover  w-8"
+                          src="images/img_designsemnome_34x34.png"
+                          alt="designsemnome_Three"
+                        />
+                        <Text
+                          className="  leading-[16.00px] right-[0] text-2xl md:text-[22px] text-blue-800 text-left sm:text-xl"
+                          size="txtInterSemiBold24"
+                        >
+                          <Text>
+                            Água tratada
+                            <br />
+                            <br />
+                            (rede pública)
+                          </Text>
+                        </Text>
+                      </div>
+                      <Line className="bottom-[0%] bg-blue_gray-100 h-px md:ml-[0] ml-[740px] mr-[60px] mt-3.5 w-[30%]" />
+                    </div>
+                    <div className=" flex flex-col items-start">
+                      <div className="gap-[16px] w-[220px] h-[104px] ">
+                        <div className=" flex flex-row gap-3 items-start justify-start mt-[9px] w-[55%] md:w-full">
+                          <div className="h-[164px] relative w-[164px]">
+                            <Img
+                              className="h-[164px] m-auto object-cover w-[164px]"
+                              src="images/img_designsemnome_1.png"
+                              alt="designsemnome_Five"
+                            />
+                            <Text
+                              className=" absolute bottom-[32%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
+                              size="txtInterSemiBold40"
+                            >
+                              44%
+                            </Text>
+                          </div>
+                        </div>
+                        <div className=" bottom-[17%] flex flex-col items-start justify-start right-[2%] w-[34%]">
+                          <div>
+                            <Img
+                              className="leading-[16.00px] right-[0] object-cover  w-8"
+                              src="images/img_designsemnome_32x32.png"
+                              alt="designsemnome_Six"
+                            />
+                          </div>
+                          <div>
+                            <Text
+                              className=" leading-[16.00px] right-[0] text-2xl md:text-[22px] text-blue-800 sm:text-xl top-[37%]"
+                              size="txtInterSemiBold24"
+                            >
+                              <>
+                                Esgoto
+                                <br />
+                                <br />
+                                (rede pública)
+                              </>
+                            </Text>
+                          </div>
+                        </div>
+                      </div>
+                      <Line className="bg-blue_gray-100 h-px md:ml-[0] ml-[11px] mt-[25px] w-[90%]" />
+                    </div>
+
+                    <div className=" items-start">
+                      <div className=" items-start">
+                        <Text
+                          className="md:ml-[0] ml-[186px] mt-[93px] text-2xl md:text-[22px] text-blue-800 sm:text-xl"
+                          size="txtInterSemiBold24"
+                        >
+                          Água inexistente
+                        </Text>
+                        <Img
+                          className=" bottom-1/4 h-8 object-cover right-[16%] w-8"
+                          src="images/img_designsemnome_2.png"
+                          alt="designsemnome_Eight"
+                        />
+                        <div className="h-[231px] md:h-[NaNpx] mb-[22px] ml-auto mr-[204px] mt-[-NaNpx] w-[231px] z-[1]">
+                          <Img
+                            className="h-[231px] m-auto object-cover w-[231px]"
+                            src="images/img_designsemnome_231x231.png"
+                            alt="designsemnome_Seven"
+                          />
+                          <Text
+                            className=" absolute h-max inset-[0] justify-center m-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-max"
+                            size="txtInterSemiBold40"
+                          >
+                            4%
+                          </Text>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <Text
+                        className="ml-auto mr-[237px] mt-[-2.99px] text-blue-800 text-center text-xs z-[1]"
+                        size="txtInterRegular12"
+                      >
+                        Fonte: Censo, INEP - 2022
+                      </Text>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -646,7 +670,7 @@ const HomePageOnePage: React.FC = () => {
             </div>
           </div>
         </div>
-          <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
+        <Footer className="bg-blue-800 flex items-center justify-center mt-[-6px] mx-auto w-full z-[1]" />
       </div>
     </>
   );

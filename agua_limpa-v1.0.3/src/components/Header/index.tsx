@@ -49,7 +49,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             </ul>
             <Button
               className="cursor-pointer flex items-center justify-center min-w-[114px]"
-              onClick={() => navigate("/buscarpagefour")}
+              onClick={() => navigate("/mapapagefive")}
               rightIcon={
                 <Img
                   className="h-[11px] ml-[5px] my-1"

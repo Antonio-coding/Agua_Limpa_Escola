@@ -19,6 +19,7 @@ export type InputProps = Omit<
     type: string;
     errors: string[];
     label: string;
+    leftIcon: React.ReactNode;
     prefix: React.ReactNode;
     suffix: React.ReactNode;
     onChange: Function;
@@ -40,13 +41,14 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       children,
       errors = [],
       label = "",
+      leftIcon,
       prefix,
       suffix,
       onChange,
       shape = "square",
       size = "",
       variant = "fill",
-      color = "amber_A100",
+      color = "",
       ...restProps
     },
     ref,
